@@ -1,0 +1,2124 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 750px) {
+/*////////////////////////////////////////////////////////////////////
+#mv-slide　RHDのメインビジュアル
+////////////////////////////////////////////////////////////////////*/
+#mv-slide {
+margin-bottom: 60px;
+}
+#mv-slide ul {
+}
+#mv-slide ul.slick-slider::after {
+content: "";
+display: block;
+background: linear-gradient(to right, #073c67, #4dc6ff);
+width: 100%;
+height: 6px;
+}
+#mv-slide ul li {
+}
+#mv-slide ul li .img {
+position: relative;
+width: 100%;
+padding-bottom: 56.25%;
+height: 0;
+}
+#mv-slide ul li .img video,
+#mv-slide ul li .img img {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+#mv-slide ul li:nth-child(1) .img {
+display: flex;
+align-items: center;
+}
+#mv-slide ul li:nth-child(1) .img img {
+max-height: 60%;
+width: auto;
+height: auto;
+right: 0;
+top: 20%;
+}
+#mv-slide ul li .catch {
+left: 0;
+right: 0;
+margin: auto;
+width: 100%;
+height: auto;
+background: #025dac;
+background: linear-gradient(to right, #073c67, #376c85);
+}
+#mv-slide ul li .catch a {
+display: flex;
+width: 100%;
+height: 100%;
+flex-wrap: wrap;
+padding: 15px 0 60px;
+position: relative;
+}
+#mv-slide ul li .catch a::before {
+content: "MORE";
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.2rem;
+margin: auto;
+background-image: url(/common/img/cmn-arw1-white.png);
+background-size: 6px auto;
+background-repeat: no-repeat;
+background-position: center right 8px;
+border: 1px solid rgba(255,255,255,0.5);
+color: #fff;
+width: 50%;
+height: 30px;
+position: absolute;
+bottom: 12px;
+left: 0;
+right: 0;
+font-family: 'Josefin Sans', sans-serif;
+}
+#mv-slide ul li .catch a span {
+font-size: 1.4rem;
+font-weight: 600;
+display: block;
+color: #fff;
+}
+#mv-slide ul li .catch a span.catch-upper {
+position: relative;
+margin-bottom: 20px;
+text-align: center;
+width: 100%;
+}
+#mv-slide ul li .catch a span.catch-upper::before {
+content: "";
+position: absolute;
+display: block;
+width: 70%;
+height: 2px;
+background: #fff;
+bottom: -12px;
+left: 0;
+right: 0;
+margin: auto;
+}
+#mv-slide .slick-dots {
+bottom: -30px;
+}
+#mv-slide .slick-dots li {
+width: 12px;
+height: 12px;
+margin: 0 6px;
+}
+#mv-slide .slick-dots li button {
+background: #dededc;
+border-radius: 0;
+width: 100%;
+height: 100%;
+}
+#mv-slide .slick-dots li.slick-active {
+}
+#mv-slide .slick-dots li.slick-active button {
+background: #025dad;
+}
+/*////////////////////////////////////////////////////////////////////
+#mv-top　共通トップタイトル
+////////////////////////////////////////////////////////////////////*/
+#mv-top {
+position: relative;
+background-color: #718493;
+margin-bottom: 32px;
+}
+#mv-top img {
+object-fit: cover;
+width: 100%;
+height: 100%
+}
+#mv-top .mv-inner {
+position: absolute;
+display: flex;
+align-items: center;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+#mv-top .mv-inner .ttl1 {
+color: #fff;
+text-align: left;
+width: 100%;
+padding-left: 5%;
+}
+#mv-top .mv-inner .ttl1 .en {
+color: inherit;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 2.2rem;
+line-height: 1.3;
+font-weight: 400;
+}
+#mv-top .mv-inner .ttl1 .jp {
+color: inherit;
+display: block;
+font-size: 1.3rem;
+font-weight: 400;
+margin-top: 2px;
+}
+/*////////////////////////////////////////////////////////////////////
+mv-sub　共通下層タイトル
+////////////////////////////////////////////////////////////////////*/
+#mv-sub {
+height: 160px;
+position: relative;
+background-color: #718493;
+}
+#mv-sub img {
+object-fit: cover;
+width: 100%;
+height: 100%
+}
+#mv-sub .mv-inner {
+position: absolute;
+display: flex;
+align-items: center;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+#mv-sub .mv-inner .ttl1 {
+color: #fff;
+}
+#mv-sub .mv-inner .ttl1 .en {
+color: inherit;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 2.6rem;
+line-height: 1;
+font-weight: 400;
+}
+#mv-sub .mv-inner .ttl1 .jp {
+color: inherit;
+display: block;
+font-size: 1.3rem;
+font-weight: 400;
+margin-top: 2px;
+}
+/*////////////////////////////////////////////////////////////////////
+#ttl-box　下層のタイトル
+////////////////////////////////////////////////////////////////////*/
+#ttl-box {
+margin-bottom: 24px;
+}
+#ttl-box .ttl-box-inner {
+position: relative;
+display: flex;
+flex-wrap: wrap;
+}
+#ttl-box .ttl-box-inner .ttl2 {
+font-size: 2.1rem;
+font-weight: 400;
+padding: 0 10px 0 40px;
+position: relative;
+margin: 0;
+background: #fff;
+order: 2;
+width: 100%;
+line-height: 1.4;
+text-align: left;
+}
+#ttl-box .ttl-box-inner .ttl2::before {
+content: "";
+display: block;
+position: absolute;
+background: #4dc6ff;
+width: 22px;
+height: 4px;
+top: 0;
+bottom: 0;
+left: 0;
+margin: auto;
+}
+#ttl-box .ttl-box-inner::before {
+}
+#ttl-box .ttl-box-inner .breadcrumbs {
+display: flex;
+justify-content: flex-end;
+background: #fff;
+order: 1;
+margin: 0 0 0 auto;
+padding: 10px 12px 24px;
+flex-wrap: wrap;
+}
+#ttl-box .ttl-box-inner .breadcrumbs li {
+padding-left: 20px;
+position: relative;
+font-size: 1.0rem;
+text-align: left;
+margin: 0;
+}
+#ttl-box .ttl-box-inner .breadcrumbs li:nth-child(1) {
+padding-left: 15px;
+padding: 0;
+}
+#ttl-box .ttl-box-inner .breadcrumbs li:nth-child(1)::before {
+content: "";
+}
+#ttl-box .ttl-box-inner .breadcrumbs li::before {
+content: ">";
+position: absolute;
+display: block;
+left: 8px;
+color: #c7c7c7;
+}
+#ttl-box .ttl-box-inner .breadcrumbs li a {
+text-decoration: underline;
+color: #c7c7c7;
+}
+/*////////////////////////////////////////////////////////////////////
+#top-news　トップのニュース [RHD][RDC][REC][RMK]
+////////////////////////////////////////////////////////////////////*/
+#top-news {
+}
+#top-news .nav {
+}
+/*////////////////////////////////////////////////////////////////////
+#top-banner　トップのバナー一覧
+////////////////////////////////////////////////////////////////////*/
+#top-banner {
+background: #fff;
+margin-top: 24px;
+margin-bottom: 24px;
+}
+.h-top #top-banner {
+margin-bottom: 32px;
+}
+#top-banner .img-list {
+max-width: 90%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+#top-banner .img-list section {
+width: 49%;
+margin: 0 0 8px 0;
+}
+#top-banner .img-list section > a {
+}
+#top-banner .img-list section > a > img {
+}
+#top-banner .img-list section > a > p {
+}
+#top-banner .img-list section > a > p .wrap {
+}
+#top-banner .img-list section > a > p .wrap span {
+color: #fff;
+display: block;
+}
+#top-banner .img-list section > a > p .wrap .en {
+font-size: 1.0rem;
+}
+#top-banner .img-list section > a > p .wrap .jn {
+position: relative;
+font-size: 1.0rem;
+margin-top: 0.6em;
+padding-top: 0.4em;
+}
+#top-banner .img-list section > a > p .wrap .jn::before {
+content: "";
+display: block;
+width: 52px;
+height: 1px;
+background: #4dc6ff;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+margin: 0 auto;
+}
+/*////////////////////////////////////////////////////////////////////
+#top-links　ショッピングボタン等 [REC]
+////////////////////////////////////////////////////////////////////*/
+#top-links {
+max-width: 90%;
+margin-bottom: 48px;
+}
+#top-links .list {
+}
+#top-links .list section {
+width: 100%;
+margin: 10px 0;
+}
+#top-links .list section a {
+position: relative;
+display: block;
+}
+#top-links .list section a::after {
+content: "";
+display: block;
+position: absolute;
+bottom: 0;
+right: 0;
+background: #fff url(/common/img/cmn-arw1.png) no-repeat center / 6px auto;
+width: 28px;
+height: 28px;
+border: 1px solid #dcdcdc;
+}
+/*////////////////////////////////////////////////////////////////////
+#top-business　トップの事業紹介 [RHD,RMK]
+////////////////////////////////////////////////////////////////////*/
+#top-business {
+}
+.h-rhd.h-top #top-business {
+padding: 32px 0 16px;
+background: #f4f6f9;
+}
+.h-rec.h-top #top-business {
+}
+.h-rdc.h-top #top-business {
+}
+.h-rmk.h-top #top-business {
+margin: 32px auto 64px;
+}
+#top-business h2 {
+}
+/*////////////////////////////////////////////////////////////////////
+#top-outline　トップの会社情報 [RMK]
+////////////////////////////////////////////////////////////////////*/
+#top-outline {
+}
+.h-rhd.h-top #top-outline {
+}
+.h-rec.h-top #top-outline {
+}
+.h-rdc.h-top #top-outline {
+}
+.h-rmk.h-top #top-outline {
+background: #f4f6f9;
+padding: 32px 0;
+}
+#top-outline .outline-list {
+max-width: 90%;
+margin-top: 16px;
+}
+#top-outline .outline-list dl {
+width: 100%;
+}
+#top-outline .outline-list dl dt {
+}
+#top-outline .outline-list dl dd {
+}
+/*////////////////////////////////////////////////////////////////////
+#top-company　トップの事業紹介 [RHD,RMK]
+////////////////////////////////////////////////////////////////////*/
+#top-company {
+}
+.h-rhd.h-top #top-company {
+}
+.h-rec.h-top #top-company {
+}
+.h-rdc.h-top #top-company {
+}
+.h-rmk.h-top #top-company {
+}
+#top-company h2 {
+}
+/*////////////////////////////////////////////////////////////////////
+#top-solution　トップのソリューション [REC]
+////////////////////////////////////////////////////////////////////*/
+#top-solution {
+}
+.h-rhd.h-top #top-solution {
+}
+.h-rec.h-top #top-solution {
+margin: 64px 0 0;
+}
+.h-rdc.h-top #top-solution {
+}
+.h-rmk.h-top #top-solution {
+}
+#top-solution h2 {
+}
+#top-solution .img-list {
+width: 90%;
+margin: 32px auto 0;
+box-sizing: content-box;
+}
+#top-solution .img-list section {
+width: 100%;
+}
+#top-solution .img-list section a {
+}
+#top-solution .img-list section a img {
+}
+#top-solution .img-list section a p {
+font-size: 3.3rem;
+}
+#top-solution .img-list section .txt {
+font-size: 1.4rem;
+text-align: justify;
+padding: 1em 0 3em;
+}
+/*////////////////////////////////////////////////////////////////////
+#top-message　トップのメッセージ [RDC]
+////////////////////////////////////////////////////////////////////*/
+#top-message {
+}
+.h-rhd.h-top #top-message {
+}
+.h-rec.h-top #top-message {
+}
+.h-rdc.h-top #top-message {
+padding: 32px 0 32px;
+}
+.h-rmk.h-top #top-message {
+}
+#top-message h2 {
+}
+/*////////////////////////////////////////////////////////////////////
+#top-special　トップのスペシャルコンテンツ一覧
+////////////////////////////////////////////////////////////////////*/
+#top-special {
+background: #e4edf9;
+}
+#top-special h2 {
+}
+.h-rhd.h-top #top-special {
+padding: 32px 0 32px;
+}
+.h-rec.h-top #top-special {
+}
+.h-rdc.h-top #top-special {
+}
+.h-rmk.h-top #top-special {
+}
+#top-special h2 {
+}
+/*////////////////////////////////////////////////////////////////////
+#greeting　ごあいさつ
+////////////////////////////////////////////////////////////////////*/
+#greeting {
+width: 100%;
+background: #f7f8fb;
+padding: 24px 10% 48px;
+}
+#greeting .greeting-inner {
+}
+#greeting .greeting-inner .greeting-text {
+text-align: justify;
+font-size: 1.4rem;
+margin-bottom: 2em;
+}
+#greeting .greeting-inner .signature {
+display: flex;
+justify-content: flex-end;
+}
+#greeting .greeting-inner .signature li {
+font-size: 1.5rem;
+}
+#greeting .greeting-inner .signature li .position {
+font-size: 1.4rem;
+}
+#greeting .greeting-inner .signature li .name {
+font-size: 2.6rem;
+}
+#greeting .greeting-inner .signature li .name img {
+width: 110px;
+}
+/*////////////////////////////////////////////////////////////////////
+#company-philosophy　経営理念
+////////////////////////////////////////////////////////////////////*/
+#company-philosophy {
+width: 90%;
+position: relative;
+margin-bottom: 32px;
+}
+#company-philosophy::before {
+content: "";
+position: absolute;
+display: block;
+bottom: 0;
+left: 0;
+width: 100%;
+height: calc(100% - 45px);
+background: url(/company/philosophy/img/philosophy-bg.png) no-repeat center / 100% 100%;
+}
+#company-philosophy section {
+position: relative;
+padding-bottom: 1em;
+}
+#company-philosophy section h2 {
+position: relative;
+line-height: 60px;
+height: 60px;
+color: #4dc6ff;
+text-align: left;
+}
+#company-philosophy section h2::after {
+position: absolute;
+bottom: 13px;
+left: 0;
+content: "";
+display: block;
+width: 100%;
+height: 1px;
+line-height: 0;
+border-bottom: 1px dotted #0e3a6a;
+}
+#company-philosophy section h2 .en {
+font-size: 3.6rem;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 400;
+display: inline-block;
+height: 60px;
+}
+#company-philosophy section h2 .jp {
+font-size: 1.4rem;
+padding-left: 0.5em;
+}
+#company-philosophy section p {
+font-size: 1.4rem;
+color: #0e3a6a;
+font-weight: 600;
+text-align: left;
+margin: 1em 0;
+}
+#company-philosophy section:nth-of-type(1) p {
+}
+/*////////////////////////////////////////////////////////////////////
+#company-overview　会社概要
+////////////////////////////////////////////////////////////////////*/
+#company-overview {
+}
+#company-overview .company-overview-detail {
+background: #f5f5f8;
+padding: 24px 5% 32px;
+}
+#company-overview .company-overview-detail ul {
+}
+#company-overview .company-overview-detail ul li {
+display: flex;
+background: #fff;
+align-items: center;
+position: relative;
+padding: 8px 0;
+margin-bottom: 2px;
+}
+#company-overview .company-overview-detail ul li:nth-child(1) {
+margin-top: 0;
+}
+#company-overview .company-overview-detail ul li::before {
+content: "";
+display: block;
+position: absolute;
+width: 4px;
+height: 100%;
+background: #4dc6ff;
+left: 0;
+top: 0;
+}
+#company-overview .company-overview-detail ul li .ttl {
+width: 100px;
+text-align: left;
+margin: 0;
+align-items: center;
+height: 100%;
+display: block;
+padding-left: 16px;
+font-weight: 600;
+font-size: 1.2rem;
+}
+#company-overview .company-overview-detail ul li .txt {
+text-align: left;
+flex: 1;
+padding-right: 16px;
+font-size: 1.4rem;
+}
+ul li .txt .post1 {
+letter-spacing: 0.01em;
+}
+#company-overview .company-overview-detail ul li .txt img {
+margin-bottom: 5px;
+height: 13.4px;
+}
+/*////////////////////////////////////////////////////////////////////
+#company-officers　役員一覧
+////////////////////////////////////////////////////////////////////*/
+#company-officers {
+}
+#company-officers h4 {
+}
+#company-officers .company-officers-detail {
+max-width: 90%;
+padding: 24px 0;
+}
+#company-officers .company-officers-detail ul {
+}
+#company-officers .company-officers-detail ul li {
+position: relative;
+padding-left: 16px;
+background: #fff;
+margin-bottom: 16px;
+}
+#company-officers .company-officers-detail ul li::before {
+content: "";
+display: block;
+position: absolute;
+width: 4px;
+height: 100%;
+background: #4dc6ff;
+left: 0;
+top: 0;
+}
+#company-officers .company-officers-detail ul li .ttl {
+margin: 0;
+text-align: left;
+font-size: 1.2rem;
+font-weight: 600;
+}
+#company-officers .company-officers-detail ul li .txt {
+margin: 0;
+text-align: left;
+font-size: 1.4rem;
+font-weight: 400;
+}
+#company-officers .company-officers-detail ul li .txt img {
+height: 13.5px;
+}
+/*////////////////////////////////////////////////////////////////////
+#acceass　アクセス
+////////////////////////////////////////////////////////////////////*/
+#access {
+}
+#access h4 {
+}
+#access .access-detail {
+background: #f5f5f8;
+}
+#access .access-detail .gmap {
+position: relative;
+width: 100%;
+padding-bottom: 50%;
+background: skyblue;
+}
+#access .access-detail .gmap iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+#access .access-detail .time-required {
+width: 90%;
+padding: 24px 0 48px;
+}
+#access .access-detail .time-required li {
+text-align: left;
+font-size: 1.4rem;
+font-weight: 600;
+}
+#access .access-detail .time-required li span {
+display: block;
+font-weight: 400;
+}
+#access .access-detail .time-required li span:nth-child(2) {
+margin-bottom: 24px;
+}
+/*////////////////////////////////////////////////////////////////////
+#company-histor　会社沿革
+////////////////////////////////////////////////////////////////////*/
+#company-history {
+}
+#company-history .ttl-navy {
+}
+#company-history .history-image {
+padding: 2em 0;
+}
+#company-history .history-image img {
+}
+/*////////////////////////////////////////////////////////////////////
+#group-list　グループ事業領域
+////////////////////////////////////////////////////////////////////*/
+#group-list {
+margin-bottom: 64px;
+}
+#group-list section {
+margin-bottom: 48px;
+}
+#group-list section .ttl-navy {
+}
+#group-list section dl {
+padding: 0 20px;
+margin: 24px auto;
+text-align: justify;
+}
+#group-list section dl dt {
+font-size: 1.8rem;
+font-weight: 600;
+border-left: 4px solid #4dc6ff;
+padding: 8px 0 8px 16px;
+margin-bottom: 16px;
+}
+#group-list section dl dd {
+font-size: 1.4rem;
+line-height: 1.6;
+color: #666;
+margin-bottom: 24px;
+}
+/*////////////////////////////////////////////////////////////////////
+#kihan-intro　行動規範のリード文
+////////////////////////////////////////////////////////////////////*/
+#kihan-lead {
+}
+#kihan-lead .share-lead {
+}
+#kihan-lead .share-lead p {
+}
+/*////////////////////////////////////////////////////////////////////
+#kihan-fundamental　基本姿勢
+////////////////////////////////////////////////////////////////////*/
+#kihan-fundamental {
+}
+#kihan-fundamental .ttl-navy {
+}
+#kihan-fundamental .detail {
+text-align: left;
+font-size: 1.4rem;
+width: 90%;
+padding: 24px 0 24px;
+}
+#kihan-fundamental .detail li {
+margin-bottom: 20px;
+text-indent: -1.9em;
+padding-left: 1.9em;
+}
+/*////////////////////////////////////////////////////////////////////
+#kihan-compliance　遵守事項
+////////////////////////////////////////////////////////////////////*/
+#kihan-compliance {
+}
+#kihan-compliance .ttl-navy {
+}
+#kihan-compliance .headline {
+text-align: justify;
+text-align: left;
+font-size: 1.4rem;
+width: 90%;
+padding: 24px 0;
+}
+#kihan-compliance .headline section {
+}
+#kihan-compliance .headline section h3 {
+font-size: 1.6rem;
+display: flex;
+padding-left: 24px;
+align-items: center;
+position: relative;
+margin-bottom: 17px;
+}
+#kihan-compliance .headline section h3::before {
+content: "";
+display: block;
+position: absolute;
+width: 3px;
+height: 100%;
+background: #4dc6ff;
+left: 0;
+top: 0;
+}
+#kihan-compliance .headline section .compliance-child {
+margin-bottom: 32px;
+font-size: 1.4rem;
+}
+#kihan-compliance .headline section .compliance-child li {
+margin-bottom: 20px;
+text-indent: -1.9em;
+padding-left: 1.9em;
+}
+#kihan-compliance .headline section .compliance-child li .compliance-grandchild {
+}
+#kihan-compliance .headline section .compliance-child li .compliance-grandchild li {
+margin-bottom: 2px;
+}
+/*////////////////////////////////////////////////////////////////////
+#company-top-list　会社情報トップのリスト
+////////////////////////////////////////////////////////////////////*/
+#company-top-list {
+}
+#company-top-list .img-list {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+max-width: 90%;
+}
+#company-top-list .img-list section {
+width: 48%;
+margin: 0 0.2% 0 0;
+}
+#company-top-list .img-list section:nth-child(3n) {
+margin: 0;
+}
+#company-top-list .img-list section .list-ttl {
+text-align: left;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 400;
+padding-bottom: 10px;
+font-size: 1.2rem;
+line-height: 1.0;
+}
+#company-top-list .img-list section > img {
+}
+#company-top-list .img-list section > a > p {
+color: #fff;
+font-weight: 600;
+font-size: 1.4rem;
+}
+#company-top-list .img-list section .list-txt {
+text-align: justify;
+padding: 16px 0 32px 0;
+font-size: 1.2rem;
+}
+/*////////////////////////////////////////////////////////////////////
+#business-top-list　事業紹介トップのリスト
+////////////////////////////////////////////////////////////////////*/
+#business-top-list {
+padding-bottom: 32px;
+}
+#business-top-list section {
+text-align: left;
+width: 90%;
+}
+#business-top-list section:nth-child(2n) {
+}
+#business-top-list section figure {
+position: relative;
+}
+#business-top-list section figure figcaption {
+position: absolute;
+top: 24px;
+left: 24px;
+color: #fff;
+padding: 2px 0 2px 16px;
+line-height: 1;
+}
+#business-top-list section figure figcaption::before {
+content: "";
+display: block;
+width: 3px;
+background: #4dc6ff;
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+}
+#business-top-list section figure figcaption span {
+display: block;
+}
+#business-top-list section figure figcaption .jp {
+font-size: 1.4rem;
+font-weight: 600;
+}
+#business-top-list section figure figcaption .en {
+font-size: 1.2rem;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 400;
+padding-top: 0.5rem;
+}
+#business-top-list section figure img {
+}
+#business-top-list section ul {
+margin: 0;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+padding: 8px 0 24px;
+}
+#business-top-list section ul li {
+margin: 1px 0;
+}
+#business-top-list section ul li a {
+font-size: 1.4rem;
+margin-right: 2em;
+text-decoration: underline;
+}
+#business-top-list section ul li a::after {
+content: "";
+display: inline-block;
+width: 6px;
+height: 8px;
+background: #fff url(/common/img/cmn-arw1.png) no-repeat center / 6px auto;
+margin-left: 1em;
+}
+/*////////////////////////////////////////////////////////////////////
+#business-technology　技術
+////////////////////////////////////////////////////////////////////*/
+#business-technology {
+}
+#business-technology .img {
+}
+#business-technology .img img {
+}
+#business-technology .share-lead {
+}
+#business-technology .share-lead p {
+padding-bottom: 48px
+}
+/*////////////////////////////////////////////////////////////////////
+#network-japan　グループネットワーク　日本
+////////////////////////////////////////////////////////////////////*/
+#network-japan {
+margin-bottom: 32px;
+margin-top: -54px;
+padding-top: 54px;
+}
+#network-japan .ttl-bg-line + .offices-list::before {
+display: none;
+}
+#network-japan .offices-list {
+position: relative;
+padding-top: 32px;
+}
+#network-japan .offices-list::before {
+content: "";
+display: block;
+position: absolute;
+top: 0;
+left: 10%;
+width: 80%;
+border-top: 1px solid #e6e6e6;
+}
+#network-japan .offices-list::after {
+}
+#network-japan .offices-list h4 {
+border-left: 4px solid #4dc6ff;
+font-size: 1.8rem;
+color: #0e3a6a;
+padding: 0 0 0 16px;
+width: 90%;
+font-weight: 600;
+}
+#network-japan .offices-list .head-office {
+}
+#network-japan .offices-list .head-office dl {
+width: 80%;
+}
+#network-japan .offices-list .branch-office {
+}
+#network-japan .offices-list .branch-office dl {
+}
+#network-japan .offices-list .branch-office dl:nth-of-type(1) {
+border-top: 1px solid #e6e6e6;
+}
+#network-japan .offices-list dl:last-of-type {
+border-bottom: none;
+}
+/*////////////////////////////////////////////////////////////////////
+#network-foreign　グループネットワーク　海外
+////////////////////////////////////////////////////////////////////*/
+#network-foreign {
+margin-top: -54px;
+padding-top: 54px;
+margin-bottom: 32px;
+}
+#network-foreign .worldmap {
+margin-top: 24px;
+margin-bottom: 0px;
+position: relative;
+}
+#network-foreign .worldmap .bg {
+width: 100%;
+}
+#network-foreign .worldmap .bg img {
+width: 100%;
+}
+#network-foreign .worldmap .pin {
+position: absolute;
+width: 0.968%;
+}
+#network-foreign .worldmap .pin a {
+display: block;
+width: 100%;
+line-height: 0;
+}
+#network-foreign .worldmap .pin img {
+width: 100%;
+}
+#network-foreign .worldmap .pin.pin1 {
+top: 58.2%;
+left: 32.8%;
+}
+#network-foreign .worldmap .pin.pin2 {
+top: 51.2%;
+left: 32.3%;
+}
+#network-foreign .worldmap .pin.pin3 {
+top: 53.1%;
+left: 33.7%;
+}
+#network-foreign .worldmap .pin.pin4 {
+top: 39.8%;
+left: 70.6%;
+}
+#network-foreign .worldmap .pin.pin5 {
+top: 29.8%;
+left: 11.2%;
+}
+#network-foreign .worldmap .pin.pin6 {
+top: 42%;
+left: 32.7%;
+}
+#network-foreign .worldmap .pin.pin7 {
+top: 45.8%;
+left: 35.6%;
+}
+#network-foreign .worldmap .pin.pin8 {
+top: 44.2%;
+left: 37.7%;
+}
+#network-foreign .worldmap .pin.pin9 {
+top: 36.7%;
+left: 39.4%;
+}
+#network-foreign .ttl-navy {
+position: relative;
+z-index: 1;
+margin-bottom: 0;
+}
+#network-foreign .ttl-bg-line {
+}
+#network-foreign .network-eastasia-main {
+background: #f4f6f9;
+margin-bottom: 32px;
+}
+#network-foreign .network-eastasia-main .offices-list:nth-of-type(1) {
+border-top: none;
+}
+#network-foreign .ttl-bg-line + .offices-list {
+border-top: none;
+}
+#network-foreign .offices-list {
+border-top: 1px solid #e6e6e6;
+}
+#network-foreign .offices-list dl {
+}
+#network-foreign .offices-list dl:last-of-type {
+border-bottom: none;
+}
+#network-foreign .offices-list dl dt {
+text-align: left;
+letter-spacing: 0;
+color: #1b4f7e;
+color: #0e3a6a;
+font-weight: 600;
+}
+#network-foreign .offices-list dl .address {
+text-align: left;
+letter-spacing: 0;
+}
+#network-foreign .offices-list dl .tel {
+}
+#network-eastasia,
+#network-singapore,
+#network-thailand,
+#network-vietnam,
+#network-usa,
+#network-germany {
+margin-top: -54px;
+padding-top: 54px;
+}
+/*////////////////////////////////////////////////////////////////////
+#ir-top-news　投資家情報トップのニュース
+////////////////////////////////////////////////////////////////////*/
+#ir-top-news {
+}
+#ir-top-news .ttl-ir {
+}
+/*////////////////////////////////////////////////////////////////////
+#ir-top-list　投資家情報トップのリスト
+////////////////////////////////////////////////////////////////////*/
+#ir-top-list {
+background: #f4f6f9;
+}
+#ir-top-list .list {
+width: 90%;
+padding: 12px 0 24px;
+}
+#ir-top-list .list section {
+}
+#ir-top-list .list section > a {
+background: #fff;
+display: flex;
+margin: 12px 0 0;
+border: 1px solid #dadada;
+}
+#ir-top-list .list section > a .img {
+width: 100px;
+align-self: flex-start;
+}
+#ir-top-list .list section > a .img img {
+}
+#ir-top-list .list section > a .txt {
+flex: 1;
+display: flex;
+align-items: center;
+position: relative;
+}
+#ir-top-list .list section > a .txt::after {
+position: absolute;
+bottom: -1px;
+right: -1px;
+content: "";
+display: block;
+width: 28px;
+height: 28px;
+background: #fff url(/common/img/cmn-arw1.png) no-repeat center / 6px auto;
+border: 1px solid #dadada;
+}
+#ir-top-list .list section > a .txt h3 {
+border-bottom: 2px solid #4dc6ff;
+font-size: 1.4rem;
+font-weight: 600;
+padding-bottom: 10px;
+}
+#ir-top-list .list section .sub {
+}
+#ir-top-list .list section .sub ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: 0;
+text-align: left;/* border-left: 1px solid #e6e6e6; */
+font-size: 1.2rem;
+}
+#ir-top-list .list section .sub ul li {
+width: 48%;
+margin: 0;
+border-bottom: 1px solid #dadada;
+}
+#ir-top-list .list section .sub ul li a {
+padding: 0.8em 5%;
+display: block;
+background: rgba(255,255,255,0.0) url(/common/img/cmn-arw1.png) no-repeat center right 10px / 6px auto;
+}
+#ir-top-list .list section .sub ul li span {
+padding: 0.8em 5%;
+display: block;
+}
+/*////////////////////////////////////////////////////////////////////
+#ir-calendar　投資家情報カレンダー
+////////////////////////////////////////////////////////////////////*/
+#ir-calendar {
+margin-top: 32px;
+}
+#ir-calendar .ttl-ir {
+margin-bottom: 24px;
+}
+#ir-calendar p {
+max-width: 90%;
+box-sizing: content-box;
+margin-bottom: 48px;
+}
+/*////////////////////////////////////////////////////////////////////
+ir-management-policy-links　経営方針ページのリンクボタン
+////////////////////////////////////////////////////////////////////*/
+#ir-management-policy-links {
+margin-bottom: 32px;
+}
+#ir-management-policy-links .list {
+width: 80%;
+}
+#ir-management-policy-links .list section {
+width: 100%;
+margin-top: 12px;
+}
+#ir-management-policy-links .list section a {
+border: 1px solid #dcdcdc;
+width: 100%;
+height: 100%;
+display: flex;
+padding: 5px;
+transition: all 0.3s ease;
+color: #1b4f7e;
+}
+#ir-management-policy-links .list section a img {
+width: 64px;
+align-self: flex-start;
+}
+#ir-management-policy-links .list section a p {
+color: inherit;
+position: relative;
+flex: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.4rem;
+font-weight: 600;
+}
+#ir-management-policy-links .list section a p::after {
+position: absolute;
+top: 50%;
+right: 18px;
+content: "";
+display: block;
+width: 6px;
+height: 10px;
+margin-top: -5px;
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+background-image: url(/common/img/cmn-arw1.png);
+}
+/*////////////////////////////////////////////////////////////////////
+#ir-governance　ガバナンス体制
+////////////////////////////////////////////////////////////////////*/
+#ir-governance {
+}
+#ir-governance h2 {
+}
+#ir-governance .frm {
+padding: 24px 5% 32px;
+background: #f4f6f9;
+}
+#ir-governance .frm .pdf-btn {
+width: 100%;
+background: #fff;
+}
+/*////////////////////////////////////////////////////////////////////
+#ir-governance-think　コーポレート・ガバナンス体制の概要
+////////////////////////////////////////////////////////////////////*/
+#ir-governance-think {
+}
+#ir-governance-think h2 {
+}
+#ir-governance-think p {
+font-size: 1.4rem;
+margin: 24px auto 32px;
+padding: 0 5%;
+text-align: justify;
+}
+/*////////////////////////////////////////////////////////////////////
+#ir-governance-outline　コーポレート・ガバナンス体制の概要
+////////////////////////////////////////////////////////////////////*/
+#ir-governance-outline {
+}
+#ir-governance-outline h2 {
+}
+#ir-governance-outline .frm {
+padding: 24px 5% 32px;
+background: #f4f6f9;
+}
+#ir-governance-outline .frm .img {
+width: 100%;
+padding: 20px;
+background: #fff;
+}
+#ir-governance-outline .frm .pdf-btn {
+width: 100%;
+margin-top: 16px;
+}
+/*////////////////////////////////////////////////////////////////////
+#ir-risk　事業等のリスク
+////////////////////////////////////////////////////////////////////*/
+#ir-risk {
+width: 100%;
+margin-bottom: 64px;
+}
+#ir-risk h2 {
+margin-bottom: 32px;
+}
+#ir-risk > p,
+#ir-risk > h3,
+#ir-risk > div {
+font-size: 1.4rem;
+text-align: justify;
+width: 90%;
+}
+#ir-risk > p {
+margin-bottom: 24px;
+}
+#ir-risk > h3 {
+}
+#ir-risk > div {
+}
+#ir-risk > div > h4 {
+padding-left: 1em;
+}
+#ir-risk > div > p {
+margin-bottom: 32px;
+padding-left: 3em;
+}
+/*////////////////////////////////////////////////////////////////////
+#ir-documents-list　最新資料一覧
+////////////////////////////////////////////////////////////////////*/
+#ir-documents-list {
+}
+#ir-documents-list .documents-list {
+margin-top: 16px;
+margin-bottom: 24px;
+display: flex;
+flex-wrap: wrap;
+}
+#ir-documents-list .documents-list li {
+width: 100%;
+margin: 0;
+}
+#ir-documents-list .documents-list li a {
+font-size: 1.6rem;
+padding: 8px 10%;
+color: #1b4f7e;
+display: flex;
+align-items: center;
+}
+#ir-documents-list .documents-list li a::before {
+content: "";
+display: inline-block;
+width: 18px;
+height: 29px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+background-image: url(/common/img/cmn-icon-pdf.png);
+margin-right: 0.5em;
+}
+/*////////////////////////////////////////////////////////////////////
+ir-documents-archives　過去資料はこちら
+////////////////////////////////////////////////////////////////////*/
+#ir-documents-archives {
+}
+#ir-documents-archives .ttl-navy {
+}
+#ir-documents-archives .lead {
+font-size: 1.4rem;
+background: #f4f6f9;
+padding: 24px 10% 32px;
+text-align: justify;
+}
+/*////////////////////////////////////////////////////////////////////
+ir-library-top　ライブラリ（資料室）トップ
+////////////////////////////////////////////////////////////////////*/
+#ir-library-top {
+}
+#ir-library-top .share-lead {
+}
+#ir-library-top .share-lead p {
+}
+/*////////////////////////////////////////////////////////////////////
+#ir-library-restar　ライブラリ（資料室）RESTAR
+////////////////////////////////////////////////////////////////////*/
+#ir-library-restar {
+}
+#ir-library-restar .ttl-navy {
+}
+#ir-library-restar section {
+padding: 24px 5% 32px;
+background: #f4f6f9;
+}
+#ir-library-restar section .ir-library-restar-inner {
+background: #fff;
+}
+#ir-library-restar section .ir-library-restar-inner h2 {
+background: #eaeaea;
+font-size: 1.8rem;
+padding: 16px 0;
+display: flex;
+}
+#ir-library-restar section .ir-library-restar-inner h2 span {
+font-size: 1.8rem;
+padding-bottom: 8px;
+border-bottom: 2px solid #4dc6ff;
+font-weight: bold;
+}
+#ir-library-restar section .ir-library-restar-inner .list {
+padding: 16px 32px 32px;
+}
+#ir-library-restar section .ir-library-restar-inner .list dl {
+border-bottom: 1px solid #e6e6e6;
+padding: 16px 0;
+text-align: left;
+}
+#ir-library-restar section .ir-library-restar-inner .list dl dt {
+font-size: 1.6rem;
+margin: 0;
+float: left;
+padding: 4px 0;
+}
+#ir-library-restar section .ir-library-restar-inner .list dl dt::before {
+content: "■";
+display: inline-block;
+margin-right: 0.5em;
+color: #4dc6ff;
+}
+#ir-library-restar section .ir-library-restar-inner .list dl dd {
+margin-left: 80px;
+padding: 4px 0;
+}
+#ir-library-restar section .ir-library-restar-inner .list dl dd a {
+font-size: 1.4rem;
+}
+#ir-library-restar section .ir-library-restar-inner .list dl dd a::before,
+#ir-library-restar section .ir-library-restar-inner .list dl dd a::after {
+content: "";
+display: inline-block;
+}
+#ir-library-restar section .ir-library-restar-inner .list dl dd a::before {
+border-left: 8px solid #4dc6ff;
+border-top: 7.5px solid transparent;
+border-bottom: 7.5px solid transparent;
+margin-right: 6px;
+vertical-align: -2px;
+}
+#ir-library-restar section .ir-library-restar-inner .list dl dd a::after {
+width: 10px;
+height: 12px;
+background: url(/common/img/cmn-icon-pdf.png) no-repeat center / contain;
+margin-left: 5px;
+vertical-align: -1px;
+}
+#ir-library-restar .more {
+min-width: 180px;
+display: inline-block;
+margin: 32px auto 64px;
+}
+#ir-library-restar .more a {
+display: flex;
+border: 1px solid #dadada;
+align-items: center;
+justify-content: center;
+color: #134b7a;
+font-size: 1.4rem;
+transition: ease 0.2s;
+padding: 0.8em 24px;
+}
+/*////////////////////////////////////////////////////////////////////
+#ir-ukcvitec-list　ライブラリ（資料室） UKC・VITEC
+////////////////////////////////////////////////////////////////////*/
+#ir-ukcvitec-list {
+margin-top: 32px;
+}
+#ir-ukcvitec-list .ir-ukcvitec-company {
+width: 100%;
+text-align: left;
+margin: 0;
+margin-top: 32px;
+}
+#ir-ukcvitec-list .ir-ukcvitec-company h2 {
+border-left: 4px solid #4dc6ff;
+padding: 10px 0 10px 24px;
+margin-bottom: 16px;
+font-weight: 600;
+font-size: 1.6rem;
+}
+#ir-ukcvitec-list .ir-ukcvitec-company .frm {
+background: #f6f9fb;
+padding: 24px 5% 48px;
+}
+#ir-ukcvitec-list .ir-ukcvitec-company .frm section {
+width: 100%;
+background: #fff;
+padding: 16px 5%;
+margin-top: 12px;
+}
+#ir-ukcvitec-list .ir-ukcvitec-company .frm section:nth-of-type(1) {
+margin: 0;
+}
+#ir-ukcvitec-list .ir-ukcvitec-company .frm section h3 {
+position: relative;
+padding-left: 30px;
+font-size: 1.8rem;
+}
+#ir-ukcvitec-list .ir-ukcvitec-company .frm section h3::before {
+content: "";
+display: block;
+position: absolute;
+background: #4dc6ff;
+width: 18px;
+height: 3px;
+top: calc(50% - 1.5px);
+bottom: 0;
+left: 0;
+}
+#ir-ukcvitec-list .ir-ukcvitec-company .frm section ul {
+}
+#ir-ukcvitec-list .ir-ukcvitec-company .frm section ul li {
+padding-left: 30px;
+width: 100%;
+font-size: 1.4rem;
+position: relative;
+margin-top: 14px;
+}
+#ir-ukcvitec-list .ir-ukcvitec-company .frm section ul li::before {
+content: "";
+display: block;
+border-top: 6px solid transparent;
+border-bottom: 6px solid transparent;
+border-left: 8px solid #4dc6ff;
+position: absolute;
+top: 4px;
+left: 9px;
+}
+#ir-ukcvitec-list .ir-ukcvitec-company .frm section ul li h4 {
+font-weight: 400;
+}
+#ir-ukcvitec-list .ir-ukcvitec-company .frm section ul li h4 a {
+}
+#ir-ukcvitec-list .ir-ukcvitec-company .frm section ul li h4 a:hover {
+text-decoration: underline;
+}
+#ir-ukcvitec-list .ir-ukcvitec-company .frm section ul li p {
+}
+#ir-ukcvitec-list .ir-ukcvitec-company .frm section ul li p a {
+text-decoration: underline;
+}
+#ir-ukcvitec-list .ir-ukcvitec-company .frm section ul li p a.pdf {
+text-decoration: none;
+}
+#ir-ukcvitec-list .ir-ukcvitec-company .frm section ul li p a.pdf:hover {
+text-decoration: underline;
+}
+#ir-ukcvitec-list .ir-ukcvitec-company .frm section ul li p a.pdf::after {
+content: "";
+display: inline-block;
+width: 10px;
+height: 12px;
+background: url(/common/img/cmn-icon-pdf.png) no-repeat center / contain;
+margin: 0 3px;
+}
+/*////////////////////////////////////////////////////////////////////
+#ir-stock-base　株式関連　基本情報 / 事務手続
+////////////////////////////////////////////////////////////////////*/
+#ir-stock-base {
+}
+#ir-stock-base .ttl-navy {
+}
+#ir-stock-base section {
+max-width: 90%;
+margin: 36px auto 44px;
+}
+#ir-stock-base section .ttl-left-line {
+}
+#ir-stock-base section .table {
+margin-bottom: 24px;
+margin-top: 24px;
+}
+#ir-stock-base section.stock-info .table {
+margin-top: 0;
+}
+#ir-stock-base section .table dt {
+width: 100%;
+text-align: left;
+font-size: 1.3rem;
+color: #666666;
+padding: 6px 4%;
+font-weight: 600;
+background: #f0f0f0;
+}
+#ir-stock-base section .table dd {
+margin: 0;
+font-size: 1.4rem;
+text-align: justify;
+width: 100%;
+padding: 6px 4%;
+}
+#ir-stock-base section .date {
+text-align: right;
+font-size: 1.4rem;
+margin-bottom: 10px;
+}
+#ir-stock-base section dl {
+}
+#ir-stock-base section dl dt {
+}
+#ir-stock-base section dl dd {
+}
+/*////////////////////////////////////////////////////////////////////
+#ir-stock-stockholders　株主構成（大株主名簿等）
+////////////////////////////////////////////////////////////////////*/
+#ir-stock-stockholders {
+}
+#ir-stock-stockholders .ttl-navy {
+}
+#ir-stock-stockholders section {
+max-width: 90%;
+margin-bottom: 48px;
+margin-top: 32px;
+}
+#ir-stock-stockholders section .ttl-left-line {
+}
+#ir-stock-stockholders section p {
+text-align: left;
+font-size: 1.4rem;
+margin: 0.5em 0;
+}
+#ir-stock-stockholders section .table {
+border-collapse: collapse;
+width: 100%;
+font-size: 1.4rem;
+}
+#ir-stock-stockholders section .table thead {
+}
+#ir-stock-stockholders section .table thead tr {
+}
+#ir-stock-stockholders section .table thead tr th {
+border-left: 1px solid #aaaaaa;
+border-right: 1px solid #aaaaaa;
+padding: 15px 20px;
+padding: 6px 10px;
+border-bottom: 1px solid #aaaaaa;
+border-top: 1px solid #aaaaaa;
+}
+#ir-stock-stockholders section .table thead tr td {
+border-right: 1px solid #aaaaaa;
+border-bottom: 1px solid #aaaaaa;
+border-top: 1px solid #aaaaaa;
+white-space: nowrap;
+padding: 6px 10px;
+}
+#ir-stock-stockholders section .table tbody {
+}
+#ir-stock-stockholders section .table tbody tr {
+}
+#ir-stock-stockholders section .table tbody tr th {
+border-left: 1px solid #aaaaaa;
+border-right: 1px solid #aaaaaa;
+border-bottom: 1px solid #aaaaaa;
+text-align: left;
+padding: 15px 20px;
+padding: 6px 10px;
+}
+#ir-stock-stockholders section .table tbody tr td {
+border-right: 1px solid #aaaaaa;
+border-bottom: 1px solid #aaaaaa;
+padding: 6px 10px;
+}
+/*////////////////////////////////////////////////////////////////////
+#ir-stock-dividend　配当金関連
+////////////////////////////////////////////////////////////////////*/
+#ir-stock-dividend {
+}
+#ir-stock-dividend .ttl-navy {
+}
+#ir-stock-dividend section {
+max-width: 90%;
+margin: 32px auto;
+}
+#ir-stock-dividend section .ttl-left-line {
+margin-bottom: 24px;
+}
+#ir-stock-dividend section p {
+text-align: justify;
+font-size: 1.4rem;
+margin-bottom: 32px;
+}
+#ir-stock-dividend section .table {
+width: 100%;
+border-collapse: collapse;
+color: #666666;
+text-align: center;
+font-size: 1.4rem;
+margin-bottom: 44px;
+}
+#ir-stock-dividend section .table thead {
+border-top: 1px solid #aaaaaa;
+border-left: 1px solid #aaaaaa;
+border-bottom: 1px solid #aaaaaa;
+}
+#ir-stock-dividend section .table thead tr {
+}
+#ir-stock-dividend section .table thead tr th {
+border-right: 1px solid #aaaaaa;
+padding: 15px 20px;
+padding: 6px 10px;
+}
+#ir-stock-dividend section .table thead tr td {
+border-right: 1px solid #aaaaaa;
+padding: 15px 20px;
+padding: 6px 10px;
+}
+#ir-stock-dividend section .table tbody {
+border-left: 1px solid #aaaaaa;
+border-bottom: 1px solid #aaaaaa;
+}
+#ir-stock-dividend section .table tbody tr {
+}
+#ir-stock-dividend section .table tbody tr th {
+border-top: 1px solid #aaaaaa;
+border-right: 1px solid #aaaaaa;
+color: #666666;
+padding: 15px 20px;
+padding: 6px 10px;
+}
+#ir-stock-dividend section .table tbody tr td {
+border-right: 1px solid #aaaaaa;
+color: #666666;
+padding: 15px 20px;
+padding: 6px 10px;
+border-top: 1px solid #aaaaaa;
+}
+/*////////////////////////////////////////////////////////////////////
+#ir-stock-general-meeting　株主総会
+////////////////////////////////////////////////////////////////////*/
+#ir-stock-general-meeting {
+padding-bottom: 32px;
+}
+#ir-stock-general-meeting .ttl-navy {
+margin-bottom: 32px;
+}
+#ir-stock-general-meeting section {
+max-width: 90%;
+}
+#ir-stock-general-meeting section .ttl-left-line {
+}
+#ir-stock-general-meeting section p {
+text-align: justify;
+font-size: 1.4rem;
+margin-bottom: 32px;
+line-height: 1.4;
+}
+#ir-stock-general-meeting section .pdf-btn {
+}
+#ir-stock-general-meeting section .pdf-btn a {
+}
+#ir-stock-general-meeting section .pdf-btn a:before {
+}
+#ir-stock-general-meeting section .pdf-btn a:after {
+}
+/*////////////////////////////////////////////////////////////////////
+#ir-other-links　IRその他ページのリンクボタン
+////////////////////////////////////////////////////////////////////*/
+#ir-other-links {
+}
+#ir-other-links .list {
+margin: 32px auto;
+width: 80%;
+}
+#ir-other-links .list section {
+margin: 0;
+margin-top: 10px;
+}
+#ir-other-links .list section a {
+background: #7eb0c8;
+color: #fff;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.4rem;
+transition: all 0.3s ease;
+padding: 16px 0;
+}
+#ir-other-links .list section a::after {
+content: "";
+display: block;
+width: 7px;
+height: 10px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+background-image: url(/common/img/cmn-arw1-white.png);
+margin-left: 0.5em;
+}
+#ir-other-links .list section a.out::after {
+width: 10px;
+hegiht: 10px;
+background-image: url(/common/img/cmn-icon-out.png);
+}
+/*////////////////////////////////////////////////////////////////////
+ir-basic-policy　IR 基本方針
+////////////////////////////////////////////////////////////////////*/
+#ir-basic-policy {
+margin-bottom: 48px;
+}
+#ir-basic-policy h2 {
+}
+#ir-basic-policy .lead {
+margin-top: 24px;
+color: #666;
+font-size: 1.4rem;
+width: 90%;
+text-align: justify;
+}
+#ir-basic-policy section {
+margin-bottom: 32px;
+text-align: justify;
+width: 90%;
+margin-top: 16px;
+}
+#ir-basic-policy section h3 {
+color: #333;
+font-size: 1.6em;
+font-weight: 600;
+}
+#ir-basic-policy section h3::before {
+content: "■";
+display: inline-block;
+margin-right: 0.75em;
+color: #4dc6ff;
+}
+#ir-basic-policy section p {
+font-size: 1.4rem;
+margin-top: 10px;
+}
+#ir-basic-policy section ul {
+margin-top: 1em;
+}
+#ir-basic-policy section ul li {
+text-indent: -1.2em;
+padding-left: 1.2em;
+font-size: 1.4rem;
+margin-top: 0.5em;
+}
+#ir-basic-policy section figure {
+margin-top: 1em;
+width: 100%;
+}
+#ir-basic-policy section figure img {
+width: 100%;
+}
+/*////////////////////////////////////////////////////////////////////
+ir-disclaimer　免責事項
+////////////////////////////////////////////////////////////////////*/
+#ir-disclaimer {
+margin-bottom: 64px;
+}
+#ir-disclaimer h2 {
+}
+#ir-disclaimer h3 {
+position: relative;
+font-size: 1.8rem;
+margin-top: 24px;
+text-align: left;
+font-weight: 600;
+padding-left: 44px;
+}
+#ir-disclaimer h3::before {
+content: "";
+display: block;
+position: absolute;
+top: 0;
+left: 18px;
+width: 4px;
+height: 100%;
+background: #4dc6ff;
+}
+#ir-disclaimer p {
+margin-top: 16px;
+margin-bottom: 32px;
+font-size: 1.4rem;
+text-align: justify;
+padding: 0 20px 0 64px;
+}
+/*////////////////////////////////////////////////////////////////////
+#news　ニュースページ
+////////////////////////////////////////////////////////////////////*/
+#news {
+}
+#news .nav {
+}
+#news .nav li {
+}
+/*////////////////////////////////////////////////////////////////////
+#contact-top　お問い合わせトップ
+////////////////////////////////////////////////////////////////////*/
+#contact-top {
+margin: 24px auto;
+max-width: 90%;
+}
+#contact-top section {
+margin: 24px 0 50px;
+}
+#contact-top section .ttl-navy {
+}
+#contact-top section ul {
+margin-top: 24px;
+}
+#contact-top section ul li {
+width: 100%;
+margin: 0;/*border-right: 1px solid #e6e6e6;*/
+margin: 0 0 2.5em;
+}
+#contact-top section ul li::after {
+content: "";
+display: block;
+clear: both;
+}
+#contact-top section ul li h3 {
+width: 100%;
+border-left: 4px solid #4dc6ff;
+font-size: 1.4rem;
+padding: 0.6em 0 0.6em 30px;
+flex: 1;
+margin-bottom: 10px;
+text-align: left;
+}
+#contact-top section ul li p {
+width: 100%;
+}
+#contact-top section ul li p a {
+display: block;
+padding: 0.8em 0;
+font-size: 1.4rem;
+color: #134b7a;
+border: 1px solid #dcdcdc;
+margin-bottom: 10px;
+width: 100%;
+margin: 0;
+}
+#contact-top section ul li p span {
+width: 100%;
+color: #666;
+font-size: 1.3rem;
+display: block;
+margin: 0.5em 0 0;
+}
+/*////////////////////////////////////////////////////////////////////
+#complianceline-top　コンプライアンスライントップ
+////////////////////////////////////////////////////////////////////*/
+#complianceline-top {
+padding: 0px 0 64px;
+}
+#complianceline-top h2 {
+font-size: 1.8rem;
+position: relative;
+margin-bottom: 24px;
+padding-bottom: 18px;
+line-height: 1.4;
+font-weight: 600;
+}
+#complianceline-top h2::before {
+content: "";
+display: block;
+position: absolute;
+background: #4dc6ff;
+width: 150px;
+height: 2px;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+}
+#complianceline-top .lead {
+font-size: 1.4rem;
+text-align: justify;
+margin-bottom: 32px;
+width: 90%;
+}
+#complianceline-top .consent {
+font-size: 1.4rem;
+text-align: center;
+font-weight: 600;
+margin-bottom: 50px;
+width: 90%;
+text-align: justify;
+}
+#complianceline-top .btn {
+width: 90%;
+margin-bottom: 24px;
+}
+#complianceline-top .btn a {
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: center;
+background: #f1f4f8;
+font-size: 1.4rem;
+font-weight: 600;
+transition: ease 0.2s;
+padding: 20px 0;
+}
+#complianceline-top .caution {
+width: 90%;
+font-size: 1.2rem;
+font-weight: 600;
+text-align: justify;
+}
+/*////////////////////////////////////////////////////////////////////
+#term　サイト利用規約
+////////////////////////////////////////////////////////////////////*/
+#term {
+max-width: 90%;
+}
+#term .lead {
+text-align: justify;
+padding: 0 0 32px;
+}
+#term .lead h2 {
+font-size: 1.6rem;
+margin-bottom: 16px;
+font-weight: 600;
+}
+#term .lead p {
+background: #f6f9fb;
+font-size: 1.2rem;
+line-height: 2;
+padding: 10px 14px;
+}
+#term .lead p a {
+text-decoration: underline;
+color: #0e3a6a;
+transition: ease 0.2s;
+}
+#term section {
+text-align: justify;
+margin-bottom: 32px;
+}
+#term section h2 {
+font-size: 1.6rem;
+height: 20px;
+display: flex;
+padding-left: 22px;
+align-items: center;
+position: relative;
+margin-bottom: 18px;
+font-weight: 600;
+line-height: 1;
+}
+#term section h2::before {
+content: "";
+display: block;
+position: absolute;
+width: 3px;
+height: 100%;
+background: #4dc6ff;
+left: 0;
+top: 0;
+}
+#term section p {
+font-size: 1.4rem;
+}
+#term section p a {
+text-decoration: underline;
+color: #0e3a6a;
+transition: ease 0.2s;
+}
+#term p.over {
+text-align: right;
+font-size: 1.6rem;
+}
+/*////////////////////////////////////////////////////////////////////
+#rec-supplier-top　取り扱いメーカートップ [REC]
+////////////////////////////////////////////////////////////////////*/
+#rec-supplier-top {
+}
+/*////////////////////////////////////////////////////////////////////
+rec-supplier-semiconductor　取り扱いメーカーの半導体リスト [REC]
+////////////////////////////////////////////////////////////////////*/
+#rec-supplier-semiconductor {
+}
+/*////////////////////////////////////////////////////////////////////
+#rdc-supplier-top　取り扱いメーカートップ [RDC]
+////////////////////////////////////////////////////////////////////*/
+#rdc-supplier-top {
+}
+/*////////////////////////////////////////////////////////////////////
+#rdc-supplier-semiconductor　取り扱いメーカーの半導体リスト [RDC]
+////////////////////////////////////////////////////////////////////*/
+#rdc-supplier-semiconductor {
+}
+/*////////////////////////////////////////////////////////////////////
+#rdc-supplier-electronic　取り扱いメーカーの電子部品リスト [RDC]
+////////////////////////////////////////////////////////////////////*/
+#rdc-supplier-electronic {
+margin-bottom: 50px;
+}
+}

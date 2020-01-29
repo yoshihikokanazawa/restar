@@ -1,0 +1,846 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 750px) {
+/*////////////////////////////////////////////////////////////////////
+product-intro　取り扱いメーカー各メーカー共通イントロ
+////////////////////////////////////////////////////////////////////*/
+.product-intro {
+}
+.product-intro .intro-logo {
+}
+.product-intro .intro-logo img {
+width: 248px;
+}
+.product-intro .intro-ttl {
+padding: 24px 0;
+font-size: 2.1rem;
+}
+.product-intro .intro-lead {
+background: #f6f9fb;
+padding: 24px 5%;
+text-align: justify;
+font-size: 1.4rem;
+}
+.product-intro .intro-lead strong {
+font-size: 1.6rem;
+text-align: center;
+display: block;
+}
+.product-intro .intro-img {
+}
+.product-intro .intro-img img {
+}
+.product-intro .intro-imglead {
+}
+.product-intro .intro-imglead .img {
+}
+.product-intro .intro-imglead .img img {
+}
+.product-intro .intro-imglead .txt {
+background: #f6f9fb;
+text-align: justify;
+font-size: 1.4rem;
+padding: 24px 5% 32px;
+flex: 1;
+font-weight: 600;
+display: flex;
+align-items: center;
+line-height: 1.6;
+}
+/*////////////////////////////////////////////////////////////////////
+.product-lead　製品紹介のリード文
+////////////////////////////////////////////////////////////////////*/
+.product-lead {
+text-align: justify;
+margin: 24px auto;
+width: 90%;
+font-size: 1.4rem;
+text-indent: -1.5em;
+padding-left: 1.5em;
+}
+/*////////////////////////////////////////////////////////////////////
+#product-contact　製品紹介ページフッタのお問い合わせ
+////////////////////////////////////////////////////////////////////*/
+#product-contact {
+background: #f6f9fb;
+padding: 32px 5%;
+}
+#product-contact .lead {
+font-size: 1.4rem;
+margin-bottom: 16px;
+}
+#product-contact .btns {
+display: flex;
+justify-content: center;
+}
+#product-contact .btns .btn {
+margin: 0;
+width: 233px;
+height: 54px;
+}
+#product-contact .btns .btn:nth-child(1) {
+margin-right: 10px;
+}
+#product-contact .btns .btn a {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100%;
+color: #fff;
+font-size: 1.4rem;
+position: relative;
+transition: ease 0.2s;
+padding-right: 10px;
+}
+#product-contact .btns .btn:nth-child(1) a {
+background: #005eac;
+}
+#product-contact .btns .btn:nth-child(2) a {
+background: #0e3a6a;
+}
+#product-contact .btns .btn a::before {
+content: "";
+display: block;
+position: absolute;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+}
+#product-contact .btns .btn:nth-child(1) a::before {
+background-image: url(../img/cmn-icon-arw2.png);
+width: 9px;
+height: 16px;
+right: 14px;
+top: 2px;
+bottom: 0;
+margin: auto;
+}
+#product-contact .btns .btn:nth-child(2) a::before {
+background-image: url(../img/cmn-icon-out.png);
+width: 13px;
+height: 13px;
+right: 14px;
+top: 2px;
+bottom: 0;
+margin: auto;
+}
+/*////////////////////////////////////////////////////////////////////
+#product-intro-flir　イントロ [FLIR]
+////////////////////////////////////////////////////////////////////*/
+#product-intro-flir {
+}
+/*////////////////////////////////////////////////////////////////////
+#product-interface　豊富なインターフェース [FLIR]
+////////////////////////////////////////////////////////////////////*/
+#product-interface {
+margin-bottom: 32px;
+}
+/*////////////////////////////////////////////////////////////////////
+#product-imagesize　豊富な画素サイズ [FLIR]
+////////////////////////////////////////////////////////////////////*/
+#product-imagesize {
+margin-bottom: 32px;
+}
+/*////////////////////////////////////////////////////////////////////
+#product-lineup　豊富なラインナップ [FLIR]
+////////////////////////////////////////////////////////////////////*/
+#product-lineup {
+margin-bottom: 48px;
+}
+#product-lineup .ttl-navy {
+}
+#product-lineup .product-lead {
+}
+#product-lineup .product {
+width: 90%;
+}
+#product-lineup .product li {
+margin: 0;
+}
+#product-lineup .product li figure {
+margin-bottom: 3px;
+}
+#product-lineup .product li figure figcaption {
+background: #6c86a2;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+font-size: 1.4rem;
+font-weight: 600;
+margin-bottom: 3px;
+}
+#product-lineup .product li figure img {
+}
+#product-lineup .product li .spec {
+background: #f8f8f8;
+font-size: 1.4rem;
+text-align: left;
+padding: 20px;
+}
+/*////////////////////////////////////////////////////////////////////
+#product-advanced-camera　先進的カメラ [FLIR]
+////////////////////////////////////////////////////////////////////*/
+#product-advanced-camera {
+}
+#product-advanced-camera .product-lead {
+}
+#product-advanced-camera .product {
+width: 90%;
+margin-bottom: 32px;
+}
+#product-advanced-camera .product li {
+width: 100%;
+margin: 0;
+}
+#product-advanced-camera .product li figure {
+margin-bottom: 3px;
+}
+#product-advanced-camera .product li figure figcaption {
+background: #6c86a2;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+font-size: 1.4rem;
+font-weight: 600;
+margin-bottom: 3px;
+}
+#product-advanced-camera .product li figure img {
+}
+#product-advanced-camera .product li .spec {
+background: #f8f8f8;
+font-size: 1.4rem;
+text-align: left;
+padding: 20px;
+font-weight: 600;
+color: #666666;
+}
+#product-advanced-camera .desc {
+width: 90%;
+text-align: justify;
+font-size: 1.4rem;
+margin-bottom: 32px;
+}
+#product-advanced-camera .bln {
+background: #6c86a2;
+color: #fff;
+font-size: 1.4rem;
+line-height: 1.5;
+padding: 16px 5%;
+position: relative;
+margin-bottom: 32px;
+width: 90%;
+}
+#product-advanced-camera .bln:before {
+content: "";
+position: absolute;
+top: 100%;
+left: 50%;
+margin-left: -15px;
+border: 15px solid transparent;
+border-top: 22px solid #6c86a2;
+}
+#product-advanced-camera table {
+width: 90%;
+display: block;
+margin-bottom: 64px;
+font-size: 1.4rem;
+font-weight: 600;
+}
+#product-advanced-camera table * {
+font-size: inherit;
+font-weight: inherit;
+}
+#product-advanced-camera table thead {
+background: #4dc6ff;
+font-size: 1.4rem;
+color: #fff;
+display: block;
+}
+#product-advanced-camera table thead tr {
+display: block;
+}
+#product-advanced-camera table thead tr th {
+padding: 15px 0;
+width: 33.3333%;
+display: block;
+}
+#product-advanced-camera table thead tr td {
+display: none;
+}
+#product-advanced-camera table tbody {
+display: block;
+}
+#product-advanced-camera table tbody tr {
+border-bottom: 1px solid #dcdcdc;
+display: block;
+}
+#product-advanced-camera table tbody tr th {
+}
+#product-advanced-camera table tbody tr th figure {
+display: flex;
+align-items: center;
+padding: 25px 0;
+}
+#product-advanced-camera table tbody tr th figure img {
+width: 80px;
+margin-right: 20px;
+}
+#product-advanced-camera table tbody tr th figure img + figcaption {
+margin-left: 0;
+}
+#product-advanced-camera table tbody tr th figure figcaption {
+margin: 0;
+text-align: left;
+flex: 1;
+font-weight: 600;
+margin-left: 100px;
+}
+#product-advanced-camera table tbody tr td {
+border-top: 1px dotted #ddd;
+text-align: left;
+display: block;
+position: relative;
+padding: 16px 0 16px 100px;
+}
+#product-advanced-camera table tbody tr td ul {
+}
+#product-advanced-camera table tbody tr td ul li {
+text-indent: -0.8em;
+padding-left: 0.8em;
+}
+#product-advanced-camera table tbody tr td::before {
+position: absolute;
+color: #4dc6ff;
+display: inline-block;
+top: 16px;
+left: 52px;
+}
+#product-advanced-camera table tbody tr td:nth-of-type(1)::before {
+content: "型番";
+}
+#product-advanced-camera table tbody tr td:nth-of-type(2)::before {
+content: "備考";
+}
+/*////////////////////////////////////////////////////////////////////
+#product-polarized-camera　偏光カメラ [FLIR]
+////////////////////////////////////////////////////////////////////*/
+#product-polarized-camera {
+}
+#product-polarized-camera .lead {
+width: 90%;
+text-align: justify;
+font-size: 1.4rem;
+margin: 32px auto;
+}
+#product-polarized-camera .product {
+width: 90%;
+margin-bottom: 32px;
+}
+#product-polarized-camera .product img {
+width: 100%;
+}
+#product-polarized-camera .sensor {
+width: 90%;
+position: relative;
+margin-bottom: 32px;
+}
+#product-polarized-camera .sensor h3 {
+position: relative;
+margin: 0 0 32px;
+}
+#product-polarized-camera .sensor h3 span {
+font-size: 1.6rem;
+font-weight: 600;
+color: #0e3a6a;
+background: #fff;
+display: inline-block;
+padding: 0 12px;
+position: relative;
+}
+#product-polarized-camera .sensor h3::before {
+content: "";
+display: block;
+position: absolute;
+background: #0e3a6a;
+width: 100%;
+height: 2px;
+top: 50%;
+margin: auto;
+left: 0;
+}
+#product-polarized-camera .sensor ul {
+}
+#product-polarized-camera .sensor ul li {
+margin-bottom: 16px;
+}
+#product-polarized-camera .sensor ul li img {
+width: 100%;
+}
+#product-polarized-camera .sensor ul li p {
+background: #f8f8f8;
+padding: 18px 5%;
+font-size: 1.4rem;
+text-align: justify;
+margin-top: 3px;
+}
+#product-polarized-camera .application {
+width: 100%;
+margin-bottom: 32px;
+}
+#product-polarized-camera .application ul {
+width: 90%;
+}
+#product-polarized-camera .application ul li {
+margin-bottom: 16px;
+}
+#product-polarized-camera .application ul li h3 {
+display: flex;
+align-items: center;
+font-size: 1.4rem;
+margin-bottom: 3px;
+text-align: left;
+}
+#product-polarized-camera .application ul li h3 span {
+color: #fff;
+background: #4dc6ff;
+padding: 8px 20px;
+margin: 0 15px 0 0;
+white-space: nowrap;
+}
+#product-polarized-camera .application ul li h3 img {
+width: 100%;
+height: 319px;
+}
+/*////////////////////////////////////////////////////////////////////
+#product-intro-prophesee　イントロ [PROPHESEE]
+////////////////////////////////////////////////////////////////////*/
+#product-intro-prophesee {
+}
+/*////////////////////////////////////////////////////////////////////
+#product-visionsensor　特許技術のVision Sensor [PROPHESEE]
+////////////////////////////////////////////////////////////////////*/
+#product-visionsensor {
+}
+#product-visionsensor h2 {
+}
+#product-visionsensor .product-lead {
+}
+#product-visionsensor .frm {
+width: 100%;
+background: #f6f9fb;
+padding: 32px 5%;
+margin-bottom: 32px;
+}
+#product-visionsensor .frm img {
+}
+#product-visionsensor h3 {
+}
+#product-visionsensor h3 span {
+margin: 0 0 0 10px;
+font-size: 1.4rem;
+font-weight: 600;
+}
+#product-visionsensor .frm .video {
+width: 100%;
+margin-bottom: 24px;
+}
+#product-visionsensor .frm .video img {
+width: 100%;
+height: auto;
+}
+#product-visionsensor .frm dl {
+text-align: left;
+width: 100%;
+font-size: 1.4rem;
+}
+#product-visionsensor .frm dl dt {
+font-weight: 600;
+margin-bottom: 8px;
+}
+#product-visionsensor .frm dl dd {
+margin-bottom: 24px;
+}
+#product-visionsensor .frm ul {
+width: 100%;
+background: #fff;
+padding: 16px 24px;
+text-align: left;
+}
+#product-visionsensor .frm ul li {
+font-size: 1.4rem;
+margin-bottom: 12px;
+position: relative;
+text-indent: -1.6em;
+padding-left: 1.6em;
+}
+#product-visionsensor .frm ul li:nth-child(4) {
+margin-bottom: 0;
+}
+#product-visionsensor .frm .info {
+font-size: 1.4rem;
+margin: 0;
+width: 100%;
+text-align: left;
+}
+#product-visionsensor .frm .info-tracking {
+font-size: 1.6rem;
+text-align: center;
+font-weight: 600;
+}
+/*////////////////////////////////////////////////////////////////////
+#product-solution　ソリューションとしてご提案 [PROPHESEE]
+////////////////////////////////////////////////////////////////////*/
+#product-solution {
+margin-bottom: 44px;
+}
+#product-solution h2 {
+}
+#product-solution .product-lead {
+}
+#product-solution .frm {
+width: 100%;
+background: #f6f9fb;
+padding: 24px 5%;
+margin-bottom: 16px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+}
+#product-solution .frm img {
+}
+#product-solution h3 {
+width: 1140px;
+font-weight: 600;
+}
+#product-solution section {
+width: 90%;
+border: 1px solid #c0c0c0;
+margin-bottom: 16px;
+padding: 24px 5%;
+text-align: left;
+}
+#product-solution section h4 {
+font-size: 1.6rem;
+margin-bottom: 16px;
+}
+#product-solution section ul {
+}
+#product-solution section ul li {
+font-size: 1.4rem;
+margin-top: 16px;
+padding-left: 2.5em;
+position: relative;
+text-indent: -1.1em;
+}
+#product-solution section ul li::before {
+content: "●";
+color: #4dc6ff;
+font-size: 1.0rem;
+margin-right: 0.5em;
+}
+/*////////////////////////////////////////////////////////////////////
+#product-camera-monitoring-detail　説明 [カメラモニタリング]
+////////////////////////////////////////////////////////////////////*/
+#product-camera-monitoring-detail {
+margin-bottom: 32px;
+}
+#product-camera-monitoring-detail .lead {
+font-size: 1.8rem;
+line-height: 1.6;
+margin: 24px auto;
+padding: 0 5%;
+}
+#product-camera-monitoring-detail div {
+display: flex;
+flex-wrap: wrap;
+}
+#product-camera-monitoring-detail div img {
+width: 33.3333%;
+}
+#product-camera-monitoring-detail div img:nth-of-type(1),
+#product-camera-monitoring-detail div img:nth-of-type(2) {
+width: 50%;
+}
+#product-camera-monitoring-detail .txt {
+font-size: 1.4rem;
+text-align: justify;
+margin-top: 32px;
+padding: 0 5%;
+}
+/*////////////////////////////////////////////////////////////////////
+#product-camera-monitoring-parts　特徴 [カメラモニタリング]
+////////////////////////////////////////////////////////////////////*/
+#product-camera-monitoring-parts {
+max-width: 1240px;
+}
+#product-camera-monitoring-parts .ttl-navy {
+}
+#product-camera-monitoring-parts div {
+margin: 32px auto;
+padding: 0 20px;
+}
+#product-camera-monitoring-parts div dl {
+font-size: 1.4rem;
+}
+#product-camera-monitoring-parts div dl dt {
+background: #b7d0e6;
+border-bottom: 1px solid #fff;
+font-weight: 600;
+padding: 8px 16px;
+}
+#product-camera-monitoring-parts div dl dd {
+padding: 16px;
+text-align: justify;
+background: #f8f8f8;
+border-bottom: 1px solid #fff;
+}
+#product-camera-monitoring-parts div dl dd p {
+}
+#product-camera-monitoring-parts div dl dd p span {
+display: block;
+}
+#product-camera-monitoring-parts div dl dd p span:nth-of-type(2) {
+padding-left: 1em;
+}
+#product-camera-monitoring-parts div dl dd strong {
+color: #005eac;
+margin-top: 0.5em;
+display: block;
+}
+#product-camera-monitoring-parts div > p {
+margin: 16px auto;
+}
+#product-camera-monitoring-parts div > p img {
+width: 100%;
+max-width: 524px;
+}
+/*////////////////////////////////////////////////////////////////////
+#product-camera-monitoring-kit　開発評価キット [カメラモニタリング]
+////////////////////////////////////////////////////////////////////*/
+#product-camera-monitoring-kit {
+max-width: 1240px;
+}
+#product-camera-monitoring-kit .ttl-navy {
+}
+#product-camera-monitoring-kit img {
+width: 100%;
+margin: 32px 0;
+}
+#product-camera-monitoring-kit .frm {
+background: #f6f9fb;
+padding: 24px 5% 48px;
+}
+#product-camera-monitoring-kit .frm h3 {
+border: 2px solid #0e3a6a;
+background: #fff;
+padding: 0.5em 0;
+font-size: 1.6rem;
+}
+#product-camera-monitoring-kit .frm .movie {
+margin-top: 24px;
+}
+#product-camera-monitoring-kit .frm .movie .movie-inner {
+position: relative;
+width: 100%;
+padding-top: 56.25%;
+height: 0;
+}
+#product-camera-monitoring-kit .frm .movie .movie-inner video {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background: #ddd;
+border: 2px solid #666;
+}
+/*////////////////////////////////////////////////////////////////////
+#product-camera-monitoring-spec　仕様 [カメラモニタリング]
+////////////////////////////////////////////////////////////////////*/
+#product-camera-monitoring-spec {
+margin-bottom: 48px;
+}
+#product-camera-monitoring-spec .ttl-navy {
+}
+#product-camera-monitoring-spec section {
+margin: 32px auto;
+}
+#product-camera-monitoring-spec section h3 {
+text-align: left;
+font-size: 1.4rem;
+width: 90%;
+}
+#product-camera-monitoring-spec section p {
+margin: 16px 0;
+}
+#product-camera-monitoring-spec section p span {
+}
+#product-camera-monitoring-spec section p span img {
+width: 100%;
+}
+#product-camera-monitoring-spec section div {
+width: 90%;
+}
+#product-camera-monitoring-spec section div dl {
+text-align: left;
+font-size: 1.2rem;
+display: flex;
+flex-wrap: wrap;
+}
+#product-camera-monitoring-spec section div dl dt {
+background: #b7d0e6;
+padding: 8px 12px;
+font-weight: 600;
+border-bottom: 1px solid #fff;
+border-right: 1px solid #fff;
+width: 40%;
+}
+#product-camera-monitoring-spec section div dl dd {
+padding: 8px 12px;
+background: #f8f8f8;
+border-bottom: 1px solid #fff;
+width: 60%;
+}
+/*////////////////////////////////////////////////////////////////////
+#product-openvino-detail　詳細 [Open VINO]
+////////////////////////////////////////////////////////////////////*/
+#product-openvino-detail {
+width: 90%;
+box-sizing: content-box;
+}
+#product-openvino-detail .lead {
+font-size: 1.8rem;
+line-height: 1.6;
+margin: 32px auto;
+}
+#product-openvino-detail div {
+}
+#product-openvino-detail div img {
+}
+#product-openvino-detail ul {
+margin: 16px auto 48px;
+}
+#product-openvino-detail ul li {
+margin-bottom: 0.5em;
+font-size: 1.4rem;
+text-align: justify;
+text-indent: -1.5em;
+padding-left: 1.5em;
+}
+/*////////////////////////////////////////////////////////////////////
+#product-openvino-parts　パーツ詳細 [Open VINO]
+////////////////////////////////////////////////////////////////////*/
+#product-openvino-parts {
+}
+#product-openvino-parts section {
+}
+#product-openvino-parts section h3 {
+padding: 0 5%;
+text-align: left;
+margin: 16px auto;
+font-size: 1.4rem;
+}
+#product-openvino-parts section div {
+}
+#product-openvino-parts section:nth-of-type(1) div {
+margin-bottom: 32px;
+}
+#product-openvino-parts section:nth-of-type(2) div {
+margin: 8px auto;
+}
+#product-openvino-parts section:nth-of-type(3) div {
+margin: 24px auto;
+}
+#product-openvino-parts section:nth-of-type(4) div {
+margin: 24px auto;
+}
+#product-openvino-parts section div img {
+width: 100%;
+}
+#product-openvino-parts section p {
+padding: 20px 5% 32px;
+display: flex;
+align-items: center;
+background: #f6f9fb;
+font-size: 1.4rem;
+line-height: 1.6;
+text-align: justify;
+}
+/*////////////////////////////////////////////////////////////////////
+#product-openvino-parts　ツールキット [Open VINO]
+////////////////////////////////////////////////////////////////////*/
+#product-openvino-toolkit {
+}
+#product-openvino-toolkit section {
+}
+#product-openvino-toolkit section .ttl-navy {
+}
+#product-openvino-toolkit section div {
+margin: 24px 5%;
+}
+#product-openvino-toolkit section p {
+padding: 20px 5%;
+background: #f6f9fb;
+font-size: 1.4rem;
+font-weight: 600;
+line-height: 1.6;
+text-align: justify;
+}
+/*////////////////////////////////////////////////////////////////////
+#product-openvino-parts　intel説明 [Open VINO]
+////////////////////////////////////////////////////////////////////*/
+#product-openvino-intel {
+margin: 32px auto;
+}
+#product-openvino-intel h2 {
+max-width: 140px;
+}
+#product-openvino-intel h2 img {
+}
+#product-openvino-intel p {
+font-size: 1.0rem;
+margin: 16px auto;
+line-height: 1.6;
+width: 90%;
+}
+/*////////////////////////////////////////////////////////////////////
+#product-agritech-system　水田マネージメントシステム
+////////////////////////////////////////////////////////////////////*/
+#product-agritech-system {
+}
+#product-agritech-system .ttl-navy {
+}
+#product-agritech-system .task {
+border-left: 4px solid #4dc6ff;
+padding-left: 12px;
+font-size: 1.8rem;
+color: #666;
+margin: 16px auto;
+text-align: justify;
+padding-right: 5%;
+}
+#product-agritech-system section {
+margin-bottom: 32px;
+text-align: justify;
+box-sizing: content-box;
+width: 90%;
+}
+#product-agritech-system section h3 {
+font-size: 1.4rem;
+margin-bottom: 1em;
+}
+#product-agritech-system section p {
+font-size: 1.4rem;
+margin: 1em auto;
+}
+#product-agritech-system section p img {
+width: 100%;
+}
+#product-agritech-system section:nth-of-type(2) p {
+}
+}

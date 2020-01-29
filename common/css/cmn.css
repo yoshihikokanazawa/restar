@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+/*////////////////////////////////////////////////////////////////////
+スマホ版
+////////////////////////////////////////////////////////////////////*/
+@media screen and (max-width: 750px) {
+body {
+transition: background 0.1s ease 1s;
+}
+body.loaded {
+background: #fff;
+}
+#container {
+}
+/*====================================================================
+footer
+====================================================================*/
+footer {
+background: #005ead;
+}
+footer .ft-inner {
+padding: 52px 0 57px;
+color: #fff;
+}
+footer .ft-inner .ft-contact {
+margin-bottom: 32px;
+}
+footer .ft-inner .ft-contact h2 {
+font-family: 'Josefin Sans', sans-serif;
+font-size: 3rem;
+line-height: 1;
+margin-bottom: 29px;
+}
+footer .ft-inner .ft-contact .txt {
+font-size: 1.2rem;
+margin-bottom: 32px;
+}
+footer .ft-inner .ft-contact .ft-contact-btn {
+}
+footer .ft-inner .ft-contact .ft-contact-btn a {
+font-family: 'Josefin Sans', sans-serif;
+border: 1px solid rgba(255, 255, 255, 0.5);
+width: 157px;
+height: 45px;
+display: flex;
+align-items: center;
+font-size: 1.5rem;
+padding-left: 55px;
+position: relative;
+line-height: 1;
+transition: ease 0.2s;
+padding-top: 4px;
+}
+footer .ft-inner .ft-contact .ft-contact-btn a:before {
+content: "";
+display: block;
+position: absolute;
+background-image: url(../img/cmn-icon-mail.png);
+background-repeat: no-repeat;
+background-size: cover;
+width: 17px;
+height: 11px;
+left: 27px;
+top: -1px;
+bottom: 0;
+margin: auto;
+}
+footer .ft-inner .ft-info {
+font-size: 1.2rem;
+line-height: 1;
+margin-bottom: 65px;
+}
+footer .ft-inner .ft-info .ft-info-logo {
+margin-bottom: 18px;
+}
+footer .ft-inner .ft-info .ft-info-logo img {
+height: 48px;
+}
+footer .ft-inner .ft-info .ft-info-detail {
+margin-bottom: 20px;
+}
+footer .ft-inner .ft-link {
+width: 270px;
+display: flex;
+}
+footer .ft-inner .ft-link li {
+width: 49%;
+margin: 0;
+}
+footer .ft-inner .ft-link li:nth-child(2) {
+position: relative;
+width: 51%;
+}
+footer .ft-inner .ft-link li a {
+font-size: 1.2rem;
+text-decoration: underline;
+display: block;
+padding: 5px 0;
+line-height: 1;
+transition: ease 0.2s;
+}
+footer .ft-inner .ft-link li:nth-child(2)::before {
+content: "";
+position: absolute;
+display: block;
+left: 0;
+top: 0;
+bottom: 0;
+width: 1px;
+height: 15px;
+background: #fff;
+margin: auto;
+}
+footer .ft-inner .ft-rhd a {
+font-size: 1.2rem;
+text-decoration: underline;
+display: block;
+padding: 5px 0;
+line-height: 1;
+transition: ease 0.2s;
+}
+footer .ft-inner .ft-rhd a:hover {
+opacity: 0.6;
+}
+footer .cr {
+background: #fff;
+height: 70px;
+display: flex;
+align-items: center;
+color: #005ead;
+font-size: 1rem;
+}
+footer .cr p {
+}
+/*====================================================================
+.rec .rdc .rdk
+====================================================================*/
+.rec footer,
+.rdc footer,
+.rmk footer {
+background: #005ead;
+}
+.rec footer .ft-inner .ft-info,
+.rdc footer .ft-inner .ft-info,
+.rmk footer .ft-inner .ft-info {
+margin-bottom: 36px;
+}
+}
+
+/*////////////////////////////////////////////////////////////////////
+PC版
+////////////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 750px) {
+body {
+transition: background 0.1s ease 1s;
+}
+body.loaded {
+background: #fff;
+}
+#container {
+}
+/*====================================================================
+footer
+====================================================================*/
+footer {
+background: #005ead;
+}
+footer .ft-inner {
+padding: 90px 0 85px;
+color: #fff;
+}
+footer .ft-inner .ft-contact {
+margin-bottom: 40px;
+}
+footer .ft-inner .ft-contact h2 {
+font-family: 'Josefin Sans', sans-serif;
+font-size: 4rem;
+line-height: 1;
+margin-bottom: 44px;
+font-weight: 600;
+}
+footer .ft-inner .ft-contact .txt {
+font-size: 1.4rem;
+margin-bottom: 44px;
+}
+footer .ft-inner .ft-contact .ft-contact-btn {
+}
+footer .ft-inner .ft-contact .ft-contact-btn a {
+border: 1px solid rgba(255, 255, 255, 0.5);
+width: 200px;
+height: 56px;
+display: flex;
+align-items: center;
+font-size: 1.6rem;
+padding-left: 78px;
+padding-top: 4px;
+position: relative;
+transition: ease 0.2s;
+font-family: 'Josefin Sans', sans-serif;
+}
+footer .ft-inner .ft-contact .ft-contact-btn a:hover {
+background: rgba(255,255,255,0.2);
+}
+footer .ft-inner .ft-contact .ft-contact-btn a::before {
+content: "";
+display: block;
+position: absolute;
+background-image: url(/common/img/cmn-icon-mail.png);
+background-repeat: no-repeat;
+background-size: contain;
+width: 19px;
+height: 13px;
+left: 45px;
+top: 0;
+bottom: 0;
+margin: auto;
+}
+footer .ft-inner .ft-info {
+font-size: 1.6rem;
+line-height: 1;
+margin-bottom: 30px;
+}
+footer .ft-inner .ft-info .ft-info-logo {
+padding-bottom: 20px;
+}
+.rec footer .ft-inner .ft-info .ft-info-logo img {
+height: 62px;
+}
+.rdc footer .ft-inner .ft-info .ft-info-logo img {
+height: 62px;
+}
+.rmk footer .ft-inner .ft-info .ft-info-logo img {
+height: 62px;
+}
+footer .ft-inner .ft-info .ft-info-detail {
+margin-bottom: 20px;
+}
+footer .ft-inner .ft-link {
+width: 270px;
+display: flex;
+}
+footer .ft-inner .ft-link li {
+width: 49%;
+margin: 0;
+}
+footer .ft-inner .ft-link li:nth-child(2) {
+position: relative;
+width: 51%;
+}
+footer .ft-inner .ft-link li a {
+font-size: 1.4rem;
+text-decoration: underline;
+display: block;
+padding: 5px 0;
+line-height: 1;
+transition: ease 0.2s;
+}
+footer .ft-inner .ft-link li a:hover {
+opacity: 0.6;
+}
+footer .ft-inner .ft-link li:nth-child(2)::before {
+content: "";
+position: absolute;
+display: block;
+left: 0;
+top: 0;
+bottom: 0;
+width: 1px;
+height: 15px;
+background: #fff;
+margin: auto;
+}
+footer .ft-inner .ft-rhd a {
+font-size: 1.4rem;
+text-decoration: underline;
+display: block;
+padding: 5px 0;
+line-height: 1;
+transition: ease 0.2s;
+margin-top: 0.3rem;
+}
+footer .ft-inner .ft-rhd a:hover {
+opacity: 0.6;
+}
+footer .cr {
+background: #fff;
+height: 83px;
+display: flex;
+align-items: center;
+color: #005ead;
+font-size: 1.4rem;
+font-family: 'Josefin Sans', sans-serif;
+}
+footer .cr p {
+}
+/*====================================================================
+.rec .rdc .rdk
+====================================================================*/
+.rec footer,
+.rdc footer,
+.rmk footer {}
+}
