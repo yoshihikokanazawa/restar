@@ -35,6 +35,20 @@ require(ROOT.'header.php');
 
 
 
+<article id="network-btns">
+<div class="list">
+<section>
+<a href="/network/">
+<p class="img"><img src="/network/img/network-japan.jpg"></p>
+<div class="txt">日本</div>
+</a>
+</section>
+</div>
+</article>
+<!-- network-btns -->
+
+
+
 
 <article id="network-foreign">
 <h2 class="ttl-navy">海外</h2>

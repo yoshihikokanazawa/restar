@@ -229,34 +229,27 @@ require(ROOT.'header.php');
 
 <article id="ir-calendar">
 <h2 class="ttl-ir"><span class="en">IR CALENDAR</span><span class="jn">カレンダー</span></h2>
-<p><img src="/ir/img/ir-calendar.png" alt="第1四半期
-第2四半期
-第3四半期
-第4四半期
 
-4月
-5月
-6月
-7月
-8月
-9月
-10月
-11月
-12月
-1月
-2月
-3月
+<section>
+<h3>2021年</h3>
+<ul>
+<li><p class="quarter">第1四半期</p><p class="date">2月12日</p><p class="txt">2020年3月期 第3四半期決算発表</p></li>
+<li><p class="quarter">第2四半期</p><p class="date">11月12日</p><p class="txt">2019年3月期 第2四半期決算発表</p></li>
+<li><p class="quarter">第3四半期</p><p class="date">8月12日</p><p class="txt">2019年3月期 第1四半期決算発表</p></li>
+<li><p class="quarter">第4四半期</p><p class="date">6月12日</p><p class="txt">2019年3月期 第3四半期決算発表</p></li>
+</ul>
+</section>
 
-・決算発表
-　2019/05/15
-・定時株主総会
-　2019/06/31
-・第1四半期決算発表
-　2019/08/15
-・第2四半期決算発表
-　2019/11/15
-・第3四半期決算発表
-　2019/02/15"></p>
+<section>
+<h3>2020年</h3>
+<ul>
+<li><p class="quarter">第1四半期</p><p class="date">2月12日</p><p class="txt">2020年3月期 第3四半期決算発表</p></li>
+<li><p class="quarter">第2四半期</p><p class="date">11月12日</p><p class="txt">2019年3月期 第2四半期決算発表</p></li>
+<li><p class="quarter">第3四半期</p><p class="date">8月12日</p><p class="txt">2019年3月期 第1四半期決算発表</p></li>
+<li><p class="quarter">第4四半期</p><p class="date">6月12日</p><p class="txt">2019年3月期 第3四半期決算発表</p></li>
+</ul>
+</section>
+
 </article>
 <!-- ir-calendar -->
 
