@@ -231,6 +231,45 @@ line-height: 2;
 text-align: justify;
 }
 /*////////////////////////////////////////////////////////////////////
+.img-left-list　画像が左側にあるボタンリスト
+////////////////////////////////////////////////////////////////////*/
+.img-left-list {
+}
+.img-left-list section {
+}
+.img-left-list section > a {
+background: #fff;
+display: flex;
+border: 1px solid #dadada;
+}
+.img-left-list section > a .img {
+width: 35%;
+overflow: hidden;
+}
+.img-left-list section > a .img img {
+transition: 0.7s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.img-left-list section > a .img img {
+}
+.img-left-list section > a .txt {
+flex: 1;
+display: flex;
+align-items: center;
+position: relative;
+}
+.img-left-list section > a .txt::after {
+position: absolute;
+bottom: -1px;
+right: -1px;
+content: "";
+display: block;
+width: 28px;
+height: 28px;
+background: #fff url(/common/img/cmn-arw1.png) no-repeat center / 6px auto;
+border: 1px solid #dadada;
+transition: 0.2s ease;
+}
+/*////////////////////////////////////////////////////////////////////
 .img-list　画像の上にテキスト、右下にアローのレイアウト
 ////////////////////////////////////////////////////////////////////*/
 .img-list {

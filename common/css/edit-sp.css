@@ -9,35 +9,4 @@ sample
 @charset "UTF-8";
 
 @media screen and (max-width: 750px) {
-/*////////////////////////////////////////////////////////////////////
-#ir-calendar　投資家情報カレンダー
-////////////////////////////////////////////////////////////////////*/
-#ir-calendar {
-margin-top: 32px;
-}
-#ir-calendar .ttl-ir {
-margin-bottom: 24px;
-}
-/*
-#ir-calendar p {
-max-width: 90%;
-box-sizing: content-box;
-margin-bottom: 48px;
-}
-*/
-#ir-calendar section {
-}
-#ir-calendar section h3 {
-}
-#ir-calendar section h3 ul {
-}
-#ir-calendar section h3 ul li {
-}
-#ir-calendar section h3 ul li .quarter {
-}
-#ir-calendar section h3 ul li .date {
-}
-#ir-calendar section h3 ul li .txt {
-}
-
 }

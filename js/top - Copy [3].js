@@ -1,12 +1,12 @@
 jQuery(function($){
-	var index=0,
-		len=0,
-		intervalId,
-		timeoutId,
-		IMAGE_AUTOPLAYSPEED=3000,
-		FADE_SPEED=2000,
-		$target,
-		$li;
+	var index=0;
+	var len=0;
+	var intervalId;
+	var timeoutId;
+	var IMAGE_AUTOPLAYSPEED=3000;
+	var FADE_SPEED=2000;
+	var $target;
+
 
 	$(window).on('DOMContentLoaded',function(){
 		len=$('#mv-slide ul li').length;
@@ -25,16 +25,14 @@ jQuery(function($){
 		//初期設定
 		$('#mv-slide ul').on('init',function(slick){
 			$target=$(slick.target);
-			$li=$('#mv-slide .slick-slider .slick-list .slick-track li');
-			//resizePlayer($th, $th.find('iframe'), 16/9);
 			resizePlayer($target, $target.find('iframe'), 16/9);
-			preload();
-			sliderStart();
+			//resizePlayer($th, $th.find('iframe'), 16/9);
+			start();
 		//
 		//フェード前
 		}).on("beforeChange", function(event, currentSlick, nextSlick) {
 			setTimeout(function(){
-				intervalStart();
+				beforeChange();
 			},3);
 		//
 		//フェード後
@@ -60,14 +58,14 @@ jQuery(function($){
 	}
 
 	/*////////////////////////////////////////////////////////////////////
-	
+	スライダースタート
 	////////////////////////////////////////////////////////////////////*/
-	function preload(){
-		$li.find('.img').each(function(i){
+	function start(){
+		$('#mv-slide .slick-slider .slick-list .slick-track li .img').each(function(i){
 			if($(this).hasClass('video'))
 				setLoadVideo($(this));
 			else
-				$(this).addClass('img-loaded');//画像 $(window).on('load'で読込まれているため
+				$(this).addClass('img-loaded');
 		});
 		function setLoadVideo($th){
 			var $video=$th.find('video');
@@ -79,52 +77,58 @@ jQuery(function($){
 			$th.parents('.img').addClass('img-loaded');
 			$th.parents('.img').append($(this).duration);
 		}
-	}
-	/*////////////////////////////////////////////////////////////////////
-	スライダーSTART
-	////////////////////////////////////////////////////////////////////*/
-	function sliderStart(){
+
 		var id=setInterval(function(){
-			if($li.eq(index).find('.img').hasClass('img-loaded')){
+			if($('#mv-slide .slick-slider .slick-list .slick-track li').eq(index).find('.img').hasClass('img-loaded')){
 				if(index!=0)
 					$target.slick('slickGoTo',index,false);
 				else
-				 intervalStart();
+				 beforeChange();
 				clearInterval(id);
 			}
 		},30);
 	}
-	/*////////////////////////////////////////////////////////////////////
-	スライダーNEXT
-	////////////////////////////////////////////////////////////////////*/
-	function sliderNext(){
-		var n=(index+1)%len;
-		if($li.eq(n).find('.img').hasClass('img-loaded'))
-			$target.slick('slickGoTo',n,false);
-		else
-			intervalStart();
-	}
-	/*////////////////////////////////////////////////////////////////////
-	切替インターバルスタート
-	////////////////////////////////////////////////////////////////////*/
-	function intervalStart(){
+
+	function beforeChange(){
 		var $th=$target.find('li.slick-current');
-		index=$target.find('li').index($th);
+		index=$target.find('li').index($th);//$target.find('li.slick-current'))
 		clearTimeout(timeoutId);
 		clearInterval(intervalId);
+		//var $th=$('#mv-slide .slick-slider .slick-list .slick-track li').eq(index);
 		if($th.find('.img').hasClass('video'))
-			intervalVideo();
+			showVideo();
 		else
-			intervalImage();
+			showImage();
 	}
-	function intervalImage(){
+	/*////////////////////////////////////////////////////////////////////
+
+	////////////////////////////////////////////////////////////////////*/
+	/*
+	function sliderGoto(n){
+		index=n;
+		beforeChange();
+	}
+	*/
+	function sliderNext(){
+		var n=index;
+		n++;
+		if(n>=len)n=0;
+		if(!$('#mv-slide .slick-slider .slick-list .slick-track li').eq(n).find('.img').hasClass('img-loaded'))
+			beforeChange();
+		else
+			$target.slick('slickGoTo',n,false);
+	}
+	/*////////////////////////////////////////////////////////////////////
+	画像・動画各種の表示とNEXT切替機能
+	////////////////////////////////////////////////////////////////////*/
+	function showImage(){
 		clearTimeout(timeoutId);
 		timeoutId=setTimeout(function(){
 			sliderNext();
 		},IMAGE_AUTOPLAYSPEED);
 	}
-	function intervalVideo(){
-		var $video=$li.eq(index).find('.img video');
+	function showVideo(){
+		var $video=$('#mv-slide .slick-slider .slick-list .slick-track li').eq(index).find('.img video');
 		$video[0].currentTime=0;
 		$video[0].play();
 		clearInterval(intervalId);

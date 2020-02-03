@@ -33,12 +33,14 @@ left: 0;
 width: 100%;
 height: 100%;
 }
+#mv-slide ul li:nth-child(1) .img {
+position: initial;
+}
 #mv-slide ul li:nth-child(1) .img img {
-height: calc(100vh - 430px);
-min-height: 100px;
-max-height: 550px;
+padding-bottom: 25%;
+/*margin-bottom: 25%;*/
 width: auto;
-top: 5%;
+top: 8%;
 left: 0;
 right: 0;
 }
@@ -55,7 +57,7 @@ display: flex;
 width: 100%;
 height: 100%;
 flex-wrap: wrap;
-padding: 4em 2em;
+padding: 5%;
 position: relative;
 background: rgba(255, 255, 255, 0.5);
 transition: all 0.3s ease;
@@ -64,12 +66,11 @@ transition: all 0.3s ease;
 background: rgba(206, 225, 241, 0.5);
 }
 #mv-slide ul li .catch a::before {
-content: "";
 content: "MORE";
 position: absolute;
 display: block;
-bottom: 19px;
-right: 18px;
+bottom: 7%;
+right: 3%;
 margin: auto;
 font-size: 1.4rem;
 padding-right: 0.8em;
@@ -1032,6 +1033,32 @@ margin: 64px auto;
 #business-technology .share-lead p {
 }
 /*////////////////////////////////////////////////////////////////////
+#network-btns　グループネットワークナビ
+////////////////////////////////////////////////////////////////////*/
+#network-btns {
+margin-top: -8px;
+margin-bottom: 48px;
+}
+#network-btns .img-left-list {
+box-sizing: content-box;
+padding: 0 20px;
+justify-content: flex-end;
+}
+#network-btns .img-left-list section {
+width: 230px;
+margin: 0;
+}
+#network-btns .img-left-list section > a {
+}
+#network-btns .img-left-list section > a .img {
+}
+#network-btns .img-left-list section > a .img img {
+}
+#network-btns .img-left-list section > a .txt {
+justify-content: center;
+font-size: 1.6rem;
+}
+/*////////////////////////////////////////////////////////////////////
 #network-japan　グループネットワーク　日本
 ////////////////////////////////////////////////////////////////////*/
 #network-japan {
@@ -1225,71 +1252,35 @@ padding-top: 75px;
 /*////////////////////////////////////////////////////////////////////
 #ir-top-list　投資家情報トップのリスト
 ////////////////////////////////////////////////////////////////////*/
-/*
 #ir-top-list {
 background: #f4f6f9;
 padding: 32px 20px;
 margin-bottom: 80px;
 }
-#ir-top-list .list {
-display: flex;
+#ir-top-list .img-left-list {
 flex-wrap: wrap;
 justify-content: space-between;
-max-width: 1240px;
 }
-#ir-top-list .list section {
-position: relative;
+#ir-top-list .img-left-list section {
 width: 48%;
 margin: 2% 0;
 }
-#ir-top-list .list section > a {
-background: #fff;
-display: flex;
-border: 1px solid #dadada;
+#ir-top-list .img-left-list section > a {
 }
-#ir-top-list .list section > a .img {
-width: 35%;
-overflow: hidden;
+#ir-top-list .img-left-list section > a .img {
 }
-#ir-top-list .list section > a .img img {
-transition: 0.7s cubic-bezier(0.23, 1, 0.32, 1);
+#ir-top-list .img-left-list section > a .img img {
 }
-#ir-top-list .list section > a:hover .img img {
-transform: scale(1.1);
-}
-#ir-top-list .list section > a .txt {
-flex: 1;
-display: flex;
-align-items: center;
-position: relative;
-transition: 0.2s ease;
+#ir-top-list .img-left-list section > a .txt {
 padding-right: 210px;
 }
-#ir-top-list .list section > a:hover .txt {
-background-color: #e4edf9;
-}
-#ir-top-list .list section > a .txt::after {
-position: absolute;
-bottom: -1px;
-right: -1px;
-content: "";
-display: block;
-width: 28px;
-height: 28px;
-background: #fff url(/common/img/cmn-arw1.png) no-repeat center / 6px auto;
-border: 1px solid #dadada;
-transition: 0.2s ease;
-}
-#ir-top-list .list section > a:hover .txt::after {
-background-color: #e4edf9;
-}
-#ir-top-list .list section > a .txt h3 {
+#ir-top-list .img-left-list section > a .txt h3 {
 border-bottom: 2px solid #4dc6ff;
 font-size: 1.8rem;
 font-weight: 600;
 padding-bottom: 10px;
 }
-#ir-top-list .list section .sub {
+#ir-top-list .img-left-list section .sub {
 position: absolute;
 top: 0;
 bottom: 0;
@@ -1299,35 +1290,93 @@ width: 210px;
 display: flex;
 align-items: center;
 }
-#ir-top-list .list section .sub ul {
+#ir-top-list .img-left-list section .sub ul {
 margin: 0;
 text-align: left;
 font-size: 1.4rem;
 border-left: 1px solid #e6e6e6;
 padding-left: 2%;
 }
-#ir-top-list .list section .sub li {
+#ir-top-list .img-left-list section .sub li {
 }
-#ir-top-list .list section .sub li::before {
+#ir-top-list .img-left-list section .sub li::before {
 content: "・";
 }
-#ir-top-list .list section .sub li a {
+#ir-top-list .img-left-list section .sub li a {
 text-decoration: underline;
 pointer-events: auto;
 transition: 0.3s ease;
 }
-#ir-top-list .list section .sub li a:hover {
+#ir-top-list .img-left-list section .sub li a:hover {
 opacity: 0.6;
 }
-#ir-top-list .list section .sub li {
+#ir-top-list .img-left-list section .sub li {
 text-decoration: underline;
 }
-*/
 /*////////////////////////////////////////////////////////////////////
 #ir-calendar　投資家情報カレンダー
 ////////////////////////////////////////////////////////////////////*/
-
-
+#ir-calendar {
+margin-bottom: 96px;
+}
+#ir-calendar .ttl-ir {
+position: relative;
+margin-bottom: 24px;
+}
+#ir-calendar .ttl-ir::after {
+content: "";
+display: block;
+border-bottom: 4px solid #4dc6ff;
+width: 1240px;
+margin: 0 auto;
+margin-top: 80px;
+}
+#ir-calendar section {
+width: 1240px;
+box-sizing: content-box;
+padding: 0 20px;
+margin-bottom: 24px;
+}
+#ir-calendar section h3 {
+font-size: 2.8rem;
+padding: 0 0 24px;
+text-align: left;
+}
+#ir-calendar section ul {
+}
+#ir-calendar section ul li {
+font-size: 1.6rem;
+display: flex;
+}
+#ir-calendar section ul li p {
+padding: 12px 0;
+}
+#ir-calendar section ul li .quarter {
+width: 186px;
+border-bottom: 1px solid #fff;
+background: #134b7a;
+color: #fff;
+}
+#ir-calendar section ul li .date {
+width: 120px;
+border-bottom: 1px solid #fff;
+background: #d2d2d2;
+}
+#ir-calendar section ul li .txt {
+flex: 1;
+padding-left: 20px;
+padding-right: 20px;
+border-top: 1px solid #d2d2d2;
+border-right: 1px solid #d2d2d2;
+text-align: justify;
+}
+#ir-calendar section ul li:last-child .quarter,
+#ir-calendar section ul li:last-child .date {
+border-bottom: none;
+}
+#ir-calendar section ul li:last-child .txt {
+border-bottom: 1px solid #d2d2d2;
+}
 /*////////////////////////////////////////////////////////////////////
 ir-management-policy-links　経営方針ページのリンクボタン
 ////////////////////////////////////////////////////////////////////*/

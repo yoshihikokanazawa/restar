@@ -43,7 +43,7 @@ require(ROOT.'header.php');
 
 
 <article id="network-btns">
-<div class="list">
+<div class="img-left-list">
 <section>
 <a href="/network/foreign/">
 <p class="img"><img src="/network/img/network-foregin.jpg"></p>

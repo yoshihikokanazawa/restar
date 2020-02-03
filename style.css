@@ -23,7 +23,6 @@ Text Domain:
 @import url('./common/css/product-pc.css'); /* 製品紹介ページ */
 @import url('./common/css/edit-sp.css'); /* 編集用CSS、本番化時削除*/
 @import url('./common/css/edit-pc.css'); /* 編集用CSS、本番化時削除*/
-@import url('./common/css/test.css'); /* TEST表示、本番化時削除*/
 
 /*
 ■共通CSS

@@ -102,7 +102,7 @@ require(ROOT.'header.php');
 
 
 <article id="ir-top-list">
-<div class="list">
+<div class="img-left-list">
 
 <section>
 <a href="/ir/management-policy/">
@@ -230,6 +230,7 @@ require(ROOT.'header.php');
 <article id="ir-calendar">
 <h2 class="ttl-ir"><span class="en">IR CALENDAR</span><span class="jn">カレンダー</span></h2>
 
+<!--
 <section>
 <h3>2021年</h3>
 <ul>
@@ -239,6 +240,8 @@ require(ROOT.'header.php');
 <li><p class="quarter">第4四半期</p><p class="date">6月12日</p><p class="txt">2019年3月期 第3四半期決算発表</p></li>
 </ul>
 </section>
+-->
+
 
 <section>
 <h3>2020年</h3>

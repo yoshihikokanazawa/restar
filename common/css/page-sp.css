@@ -965,6 +965,37 @@ margin-left: 1em;
 padding-bottom: 48px
 }
 /*////////////////////////////////////////////////////////////////////
+#network-btns　グループネットワークナビ
+////////////////////////////////////////////////////////////////////*/
+#network-btns {
+margin-top: 24px;
+margin-bottom: 24px;
+}
+#network-btns .img-left-list {
+}
+#network-btns .img-left-list section {
+width: 80%;
+}
+#network-btns .img-left-list section > a {
+}
+#network-btns .img-left-list section > a .img {
+}
+#network-btns .img-left-list section > a .img img {
+}
+#network-btns .img-left-list section > a:hover .img img {
+transform: scale(1.1);
+}
+#network-btns .img-left-list section > a .txt {
+transition: 0.2s ease;
+justify-content: center;
+font-size: 1.6rem;
+}
+#network-btns .img-left-list section > a:hover .txt {
+background-color: #e4edf9;
+}
+#network-btns .img-left-list section > a .txt::after {
+}
+/*////////////////////////////////////////////////////////////////////
 #network-japan　グループネットワーク　日本
 ////////////////////////////////////////////////////////////////////*/
 #network-japan {
@@ -1140,76 +1171,117 @@ padding-top: 54px;
 #ir-top-list {
 background: #f4f6f9;
 }
-#ir-top-list .list {
+#ir-top-list .img-left-list {
 width: 90%;
 padding: 12px 0 24px;
 }
-#ir-top-list .list section {
+#ir-top-list .img-left-list section {
 }
-#ir-top-list .list section > a {
-background: #fff;
-display: flex;
+#ir-top-list .img-left-list section > a {
 margin: 12px 0 0;
-border: 1px solid #dadada;
 }
-#ir-top-list .list section > a .img {
-width: 100px;
+#ir-top-list .img-left-list section > a .img {
 align-self: flex-start;
 }
-#ir-top-list .list section > a .img img {
+#ir-top-list .img-left-list section > a .img img {
 }
-#ir-top-list .list section > a .txt {
-flex: 1;
-display: flex;
-align-items: center;
-position: relative;
+#ir-top-list .img-left-list section > a .txt {
 }
-#ir-top-list .list section > a .txt::after {
-position: absolute;
-bottom: -1px;
-right: -1px;
-content: "";
-display: block;
-width: 28px;
-height: 28px;
-background: #fff url(/common/img/cmn-arw1.png) no-repeat center / 6px auto;
-border: 1px solid #dadada;
+#ir-top-list .img-left-list section > a .txt::after {
 }
-#ir-top-list .list section > a .txt h3 {
+#ir-top-list .img-left-list section > a .txt h3 {
 border-bottom: 2px solid #4dc6ff;
 font-size: 1.4rem;
 font-weight: 600;
 padding-bottom: 10px;
 }
-#ir-top-list .list section .sub {
+#ir-top-list .img-left-list section .sub {
 }
-#ir-top-list .list section .sub ul {
+#ir-top-list .img-left-list section .sub ul {
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 margin: 0;
-text-align: left;/* border-left: 1px solid #e6e6e6; */
+text-align: left;
 font-size: 1.2rem;
 }
-#ir-top-list .list section .sub ul li {
+#ir-top-list .img-left-list section .sub ul li {
 width: 48%;
 margin: 0;
 border-bottom: 1px solid #dadada;
 }
-#ir-top-list .list section .sub ul li a {
-padding: 0.8em 5%;
-display: block;
+#ir-top-list .img-left-list section .sub ul li a {
+padding: 0.8em 20% 0.8em 5%;
 background: rgba(255,255,255,0.0) url(/common/img/cmn-arw1.png) no-repeat center right 10px / 6px auto;
+height: 100%;
+display: flex;
+align-items: center;
 }
-#ir-top-list .list section .sub ul li span {
+#ir-top-list .img-left-list section .sub ul li span {
 padding: 0.8em 5%;
 display: block;
 }
 /*////////////////////////////////////////////////////////////////////
 #ir-calendar　投資家情報カレンダー
 ////////////////////////////////////////////////////////////////////*/
-
-
+#ir-calendar {
+margin-top: 32px;
+margin-bottom: 48px;
+}
+#ir-calendar .ttl-ir {
+margin-bottom: 12px;
+}
+#ir-calendar .ttl-ir::after {
+content: "";
+display: block;
+border-bottom: 3px solid #4dc6ff;
+width: 90%;
+margin: 0 auto;
+margin-top: 24px;
+}
+#ir-calendar section {
+margin-bottom: 24px;
+width: 90%;
+}
+#ir-calendar section h3 {
+font-size: 2.1rem;
+padding: 0 0 12px;
+text-align: left;
+}
+#ir-calendar section ul {
+}
+#ir-calendar section ul li {
+font-size: 1.4rem;
+display: flex;
+flex-wrap: wrap;
+}
+#ir-calendar section ul li p {
+padding: 8px 0;
+}
+#ir-calendar section ul li .quarter {
+width: 50%;
+background: #134b7a;
+color: #fff;
+}
+#ir-calendar section ul li .date {
+width: 50%;
+background: #d2d2d2;
+}
+#ir-calendar section ul li .txt {
+flex: 1;
+padding-left: 20px;
+padding-right: 20px;
+border-left: 1px solid #d2d2d2;
+border-right: 1px solid #d2d2d2;
+text-align: justify;
+}
+#ir-calendar section ul li:last-child .quarter,
+#ir-calendar section ul li:last-child .date {
+border-bottom: none;
+}
+#ir-calendar section ul li:last-child .txt {
+border-bottom: 1px solid #d2d2d2;
+}
 /*////////////////////////////////////////////////////////////////////
 ir-management-policy-links　経営方針ページのリンクボタン
 ////////////////////////////////////////////////////////////////////*/
