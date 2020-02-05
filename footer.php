@@ -19,8 +19,8 @@
 </div>
 
 <ul class="ft-link">
-<li><a href="/term/">サイト利用規約</a>
-<li><a href="/privacy/">個人情報保護方針</a>
+<li><a href="/term/">サイト利用規約</a></li>
+<li><a href="/privacy/">個人情報保護方針</a></li>
 </ul>
 
 </div>

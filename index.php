@@ -123,14 +123,26 @@ ENERGY
 </section>
 
 <section>
-<a href="" target="_blank">
+<a href="">
 <img src="/img/top-banner3.jpg" alt="">
+<p>
+<span class="wrap">
+<span class="en">INITIATIVES</span>
+<span class="jn">SDGsの取り組み</span>
+</span>
+</p>
 </a>
 </section>
 
 <section>
-<a href="" target="_blank">
+<a href="">
 <img src="/img/top-banner4.jpg" alt="">
+<p>
+<span class="wrap">
+<span class="en">MEDIUM-TERM MANAGEMENT PLAN </span>
+<span class="jn">中期経営計画</span>
+</span>
+</p>
 </a>
 </section>
 

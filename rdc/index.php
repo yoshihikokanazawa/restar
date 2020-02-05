@@ -15,8 +15,7 @@ require(ROOT.'header_rdc.php');
 <img src="/rdc/img/mv-rdc-top.jpg" alt="">
 <div class="mv-inner">
 <p class="ttl1"><span class="en">RESTAR<br>
-ELECTRONICS CORPORATION<br>
-SAMPLE TEXT SAMPLE TEXT</span></p>
+ELECTRONICS CORPORATION</span></p>
 </div>
 </article>
 <!-- mv-top -->

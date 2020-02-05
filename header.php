@@ -109,6 +109,10 @@
 </div>
 </li>
 
+<li>
+<p><a href="https://www.recruit.restargp.com/" target="_blank"><span>採用情報</span></a></p>
+</li>
+
 </ul>
 
 </div>

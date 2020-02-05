@@ -9,4 +9,85 @@ sample
 @charset "UTF-8";
 
 @media screen and (max-width: 750px) {
+#interview {
+margin-bottom: 48px;
+}
+#interview .interview-list-ttl {
+color: #666666;
+font-size: 1.4rem;
+padding: 12px 0;
+width: 90%;
+font-weight: 500;
+margin-bottom: 16px;
+border-bottom: 1px solid #666666;
+text-align: left;
+}
+#interview .img-left-list {
+width: 90%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+#interview .img-left-list section {
+margin: 2% 0;
+width: 48%;
+}
+#interview .img-left-list section a {
+display: block;
+width: 100%;
+height: 100%;
+position: relative;
+}
+#interview .img-left-list section a .img {
+display: block;
+width: 100%;
+}
+#interview .img-left-list section a .txt {
+flex-direction: column;
+align-items: center;
+padding: 10px 0 0;
+}
+#interview .img-left-list section a .txt span {
+font-size: 1.1rem;
+font-weight: 600;
+padding-bottom: 10px;
+margin-bottom: 6px;
+color: #1b4f7e;
+position: relative;
+}
+#interview .img-left-list section a .txt span::before {
+content: "";
+position: absolute;
+display: block;
+background: #4dc6ff;
+width: 100%;
+height: 2px;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+}
+#interview .img-left-list section a .txt .name {
+font-size: 1.2rem;
+margin-bottom: 6px;
+color: #666666;
+font-weight: 500;
+}
+#interview .img-left-list section a .txt .position {
+font-size: 1.0rem;
+line-height: 1.2;
+color: #666666;
+font-weight: 500;
+}
+#interview .img-left-list section a .txt {
+padding: 12px 12px 32px;
+position: initial;
+}
+#interview .img-left-list section a .txt span {
+padding-bottom: 12px;
+margin-bottom: 8px;
+}
+#interview .img-left-list section a .txt .name {
+margin-bottom: 2px;
+}
 }

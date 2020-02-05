@@ -15,8 +15,7 @@ require(ROOT.'header_rmk.php');
 <img src="/rmk/img/mv-rmk-top.jpg" alt="">
 <div class="mv-inner">
 <p class="ttl1"><span class="en">RESTAR<br>
-MARKETING CORPORATION<br>
-SAMPLE TEXT SAMPLE TEXT</span></p>
+MARKETING CORPORATION</span></p>
 </div>
 </article>
 <!-- mv-top -->

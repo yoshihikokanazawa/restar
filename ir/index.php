@@ -116,7 +116,7 @@ require(ROOT.'header.php');
 <li><a href="/company/message/">TOPメッセージ</a></li>
 <li><a href="/company/philosophy/">経営理念</a></li>
 <li><a href="/ir/management-policy/#ir-governance">コーポレート・ガバナンス</a></li>
-<li><a href="/ir/management-policy/#ir-lisk">事業等のリスク</a></li>
+<li><a href="/ir/management-policy/#ir-risk">事業等のリスク</a></li>
 </ul>
 </div>
 </section>
