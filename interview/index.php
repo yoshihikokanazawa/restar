@@ -42,7 +42,7 @@ require(ROOT.'header.php');
 <div class="img-left-list">
 <section>
 <a href="要確認">
-<p class="img"><img src="img/am.jpg" alt=""></p>
+<p class="img"><img src="img/interview-am.jpg" alt=""></p>
 <div class="txt">
 <span>レスターの環境エネルギー事業は、<br>
 新しい未来を拓く。</span>
@@ -57,7 +57,7 @@ require(ROOT.'header.php');
 
 <section>
 <a href="要確認">
-<p class="img"><img src="img/kk.jpg" alt=""></p>
+<p class="img"><img src="img/interview-kk.jpg" alt=""></p>
 <div class="txt">
 <span>現場との強力なリレーションシップで<br>
 中国市場のさらなる拡大を目指す。</span>
@@ -72,7 +72,7 @@ require(ROOT.'header.php');
 
 <section>
 <a href="要確認">
-<p class="img"><img src="img/mn.jpg" alt=""></p>
+<p class="img"><img src="img/interview-mn.jpg" alt=""></p>
 <div class="txt">
 <span>新しい会社ならではの柔軟さで、<br>
 目標に向かって様々な分野に挑戦できる。</span>
@@ -86,7 +86,7 @@ require(ROOT.'header.php');
 
 <section>
 <a href="要確認">
-<p class="img"><img src="img/tm.jpg" alt=""></p>
+<p class="img"><img src="img/interview-tm.jpg" alt=""></p>
 <div class="txt">
 <span>レスターの環境エネルギー事業は、<br>
 新しい未来を拓く。</span>

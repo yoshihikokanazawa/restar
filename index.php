@@ -75,7 +75,7 @@ require(ROOT.'header.php');
 </video>
 </div>
 <p class="catch">
-<a href="">
+<a href="/interview/">
 <span class="catch-upper">エレクトロニクスに関する<br>世界中の課題を解決する。</span>
 <span>レスターグループの社員が</span>
 </a>
@@ -382,7 +382,7 @@ PCIホールディングスグループとの提携強化について</a></p>
 </section>
 
 <section>
-<a href=""><img src="/img/top-special2.jpg" alt="">
+<a href="/interview/"><img src="/img/top-special2.jpg" alt="">
 <p><span class="wrap">
 <span class="jn">レスターホールディングスの社員</span>
 <span class="en">Restar Holdings Employees</span>
