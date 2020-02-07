@@ -12,7 +12,7 @@ require(ROOT.'header.php');
 
 
 <article id="mv-sub">
-<img src="/company/img/mv-company.jpg" alt="">
+<img src="/privacy/img/mv-privacy.jpg" alt="">
 <div class="mv-inner">
 <p class="ttl1"><span class="en">PRIVACY POLICY</span><span class="jp">プライバシーポリシー</span></p>
 </div>

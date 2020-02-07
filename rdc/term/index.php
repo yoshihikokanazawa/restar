@@ -12,7 +12,7 @@ require(ROOT.'header_rdc.php');
 
 
 <article id="mv-sub">
-<img src="/term/img/mv-term.jpg" alt="">
+<img src="/privacy/img/mv-privacy.jpg" alt="">
 <div class="mv-inner">
 <p class="ttl1"><span class="en">TERMS OF SERVICE</span><span class="jp">サイト利用規約</span></p>
 </div>
