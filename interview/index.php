@@ -41,22 +41,22 @@ require(ROOT.'header.php');
 
 <div class="img-left-list">
 <section>
-<a href="要確認">
+<a href="/interview/staff1/">
 <p class="img"><img src="img/interview-am.jpg" alt=""></p>
 <div class="txt">
 <span>レスターの環境エネルギー事業は、<br>
 新しい未来を拓く。</span>
 <p class="name">A.M</p>
 <p class="position">
-株式会社レスターエレクトロニクス　<br>
-ブロードセールスカンパニー 営業部門 兼<br>　
-株式会社レスターマーケティング <br class="sp">マーケティング部門</p>
+株式会社レスターエレクトロニクス<br class="pc">
+ブロードセールスカンパニー 営業部門 兼<br>
+株式会社レスターマーケティング マーケティング部門</p>
 </div>
 </a>
 </section>
 
 <section>
-<a href="要確認">
+<a href="/interview/staff2/">
 <p class="img"><img src="img/interview-kk.jpg" alt=""></p>
 <div class="txt">
 <span>現場との強力なリレーションシップで<br>
@@ -64,14 +64,14 @@ require(ROOT.'header.php');
 <p class="name">K.K</p>
 <p class="position">
 株式会社レスターエレクトロニクス<br>
-第３営業部門<br>
+第３営業部門<br class="pc">
 ディスプレイマーケティング部</p>
 </div>
 </a>
 </section>
 
 <section>
-<a href="要確認">
+<a href="/interview/staff3/">
 <p class="img"><img src="img/interview-mn.jpg" alt=""></p>
 <div class="txt">
 <span>新しい会社ならではの柔軟さで、<br>
@@ -85,7 +85,7 @@ require(ROOT.'header.php');
 </section>
 
 <section>
-<a href="要確認">
+<a href="/interview/staff4/">
 <p class="img"><img src="img/interview-tm.jpg" alt=""></p>
 <div class="txt">
 <span>レスターの環境エネルギー事業は、<br>

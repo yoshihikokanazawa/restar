@@ -31,7 +31,7 @@ require(ROOT.'header.php');
 </video>
 </div>
 <p class="catch">
-<a href="">
+<a href="/spread/">
 <span class="catch-upper">エレクトロニクスに関する<br>世界中の課題を解決する。</span>
 <span>私たちグループの技術を結集して。</span>
 </a>
@@ -369,7 +369,7 @@ PCIホールディングスグループとの提携強化について</a></p>
 <div class="top-list img-list">
 
 <section>
-<a href=""><img src="/img/top-special1.jpg" alt="">
+<a href="/spread/"><img src="/img/top-special1.jpg" alt="">
 <p><span class="wrap">
 <span class="jn">PCIホールディングスとの取り組み</span>
 <span class="en">Initiatives with PCI Holdings</span>
